@@ -1,6 +1,6 @@
 # Zombie-to-Exit Loop: behavioral evaluation
 
-Date: October 27, 2026 (America/New_York). Test model reported by the CLI: **claude-sonnet-5-5**. This is an author-graded, two-scenario synthetic evaluation, not customer validation or an independent human review.
+Date: October 27, 2026 (America/New_York). Test model reported by the CLI: **claude-sonnet-5-5**. The scenarios and skills were assistant-authored, and another assistant reviewed the test responses against the criteria. This is a two-scenario synthetic evaluation, not customer validation or an independent human review.
 
 ## Method
 

@@ -11,7 +11,7 @@ Updated October 27, 2026. See the [behavioral findings and criterion-level grade
 | Fresh-assistant initial runs | Baseline, development, and final acceptance executed with claude-sonnet-5-5 | Final acceptance used separate empty temporary folders, inline instructions, no tools, and no expected answers |
 | Case 01 scripted gate continuation | Executed after observing the Decider stop | A simulated facilitator reply supplied Retire, name, reason, and date; all other gates remained pending |
 | Case 02 early-stop behavior | Observed in final acceptance | Healthy finding preserved the funding record and skipped the ledger and exit work |
-| Final semantic criteria | Author-graded: 24 of 24 observed in the three acceptance responses | Includes both initial cases and the scripted continuation; this is not independent human judging |
+| Final semantic criteria | Assistant-graded: 24 of 24 observed in the three acceptance responses | Includes both initial cases and the scripted continuation; this is not independent human judging |
 | Readout length and traceability | Final readouts: 159, 169, and 179 words, with supplied evidence references | Length excludes the readout heading; reached artifacts are separate |
 | Skill revisions | Applied and retested | Question polarity, Unknown versus absence, early branches, source-linked summaries, cash/capacity distinctions, obligations, and draft/confirmed states |
 | Generic native Codex skill validator | Does not accept existing custom frontmatter | Canonical YAML, names, descriptions, intents, and licenses parse; native installation/discovery remains unverified |
