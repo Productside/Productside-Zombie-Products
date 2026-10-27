@@ -56,6 +56,8 @@ This is not the exit plan (`eol-step3-comms-plan`) or the cost count (`eol-util-
 | EOL | Most engineering maintenance; part of support |
 | EOSL | The rest of support; infrastructure, licenses, compliance scope |
 
+**Release and acceptance must both be earned.** The worksheet's specific support, return, and contractual obligations override generic phase-release examples. A requested team transfer is a proposal until the receiving owner accepts the work and the budget owner approves it. Keep loaded people cost separate from avoidable outside payments and net cash effects; salary does not disappear when a person moves. If benefit, target, owner, or date is unknown, leave it unknown or explicitly propose it for confirmation; do not claim a measured improvement or accepted commitment.
+
 **Name the capacity, out loud.** "About a third of one squad from February, two support agents from next May" is a transfer. "Some engineering time" is not.
 
 *Violation signal:* The freed capacity is described as "time back" with no people, amount, or date.

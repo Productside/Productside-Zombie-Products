@@ -82,7 +82,7 @@ Best guess does not authorize the assistant to choose the decision or invent fin
 
 [The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Can the loop distinguish a zombie from a product that deserves to live?
 
-The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) distinguishes checked arithmetic from behavioral runs that have not yet happened.
+The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) records the behavioral runs, findings, corrections, and remaining limits.
 
 ## Saw it in the webinar?
 

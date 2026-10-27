@@ -41,6 +41,17 @@
 
 **Plus what it forgoes:** (in words)
 
+## Capacity and cash boundary
+
+| View | Supplied amount and period | What still needs confirmation |
+|---|---|---|
+| People capacity (already included in listed costs) | | Release timing and receiving owner's acceptance |
+| Outside payments potentially avoidable | | Cancellation terms, commitments, and timing |
+| Revenue that ends | | Run-off timing |
+| One-time exit costs and obligations | Unknown unless supplied | |
+
+**Net exit cash effect / retirement ROI:** Unknown unless the timing and complete cash flows are supplied. Do not add these views together or label redeployed salaries as savings.
+
 ## The waterline sentence
 
 What it earns above the line: · What it eats below:

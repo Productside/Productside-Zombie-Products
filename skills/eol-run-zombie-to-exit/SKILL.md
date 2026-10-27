@@ -53,7 +53,7 @@ Use this skill when you want the whole loop. Use the individual steps when you o
 | 3b | Write the announcement | `eol-message` (Product Manager Skills) | Announcement draft | Legal and the plan owner approve the text |
 | 4 | Free the living | `eol-step4-free-the-living` | Capacity Transfer | The budget owner approves the trade |
 
-**Branches.** If step 1 says *healthy* or *just ugly*, stop and record why; there is no exit to plan. If step 2's Decider says **revive**, skip steps 3 and 3b, record the extension play, its owner, and the evidence check date, then run step 4 only if the revive itself frees capacity elsewhere.
+**Branches.** If step 1 says *healthy* or *just ugly*, stop immediately before step 1b and record why. Mark the remaining loop artifacts and gates **Not applicable / skipped**, including an optional ledger requested as part of the loop. A user can request a standalone ledger separately; explain that distinction rather than running an exit sequence to fill every slot. Preserve existing evidence-backed funding and ownership records; do not require a fresh revive/replace/retire word for a healthy product. If step 2's Decider says **revive**, skip steps 3 and 3b, record the extension play, its owner, and the evidence check date, then run step 4 only if the revive itself frees capacity elsewhere.
 
 **Where `eol-message` lives.** It is in Dean Peters' Product Manager Skills collection (CC BY-NC-SA 4.0): [eol-message in Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message). Depending on how it was installed, it may be invoked as `eol-message` or with a collection prefix (for example `anthropic-skills:eol-message`); look for either. If it is not installed, draft a clearly labeled fallback announcement from the worksheet's customer path and key messages. Include the affected product and audience, the change and reason, dates, migration path, support commitment, and contact. Do not claim to have used the unavailable skill.
 
@@ -84,6 +84,8 @@ A *pending* gate is not a confirmation. The pack is a draft until every pending 
 
 *Violation signal:* The announcement promises something (for example, "the new product will cover everything") that the worksheet lists as a risk or an unknown.
 
+**Evidence and status travel with the artifact.** Reuse the input's evidence IDs, or short source names when no IDs exist, beside consequential findings, figures, constraints, and readout claims. Cite unnumbered context as “case introduction,” not an invented source ID. Missing evidence stays Unknown; do not convert it to No. Preserve existing supplied decisions as recorded, distinguish them from approvals requested during this run, and distinguish **Pending**, **Confirmed**, and **Not applicable / skipped**. A skipped gate is not an outstanding approval. A fictional fixture's records remain fictional; never imply independent verification.
+
 **Each step follows its own skill.** Read the step's `SKILL.md` and fill its `template.md`. Apply that step's violation signals and pitfalls. Do not shorten a step to save time; skip optional steps instead, and say which.
 
 ## Guided Context Capture
@@ -111,7 +113,8 @@ In **Context dump** mode, sort everything into `Known / Assumed / Missing / Conf
 4. **Follow the branches** after step 1 and step 2.
 5. **Run the promise check** after step 3b, and fix or flag every unsupported promise before the announcement goes to its approvers.
 6. **Assemble the pack**: a cover page (product, verdict, decision, Decider, key dates, the trade) followed by each artifact in order.
-7. **List what is still open**: every *(assumed)* item and unknown, with who can answer it, and every *pending* gate under "Confirmations needed," with who must confirm it.
+7. **List what is still open**: every *(assumed)* item and unknown, with who can answer it, and every *pending* gate under "Confirmations needed," with who must confirm it. Keep skipped gates out of that list.
+8. **Lead with a readout of at most 200 words**, at every hard stop and when the run ends. Aim for 120–150 words to leave room for source citations and labels; check the length before returning. State the product finding, strongest source-backed evidence, economics if known, decision status, customer risk or job, capacity status if relevant, and the next action and owner. Cite the supplied evidence IDs or source names inline. At a stop, call it interim; at an early branch, say which work was skipped. Keep the reached artifacts separately below it rather than replacing them with the short readout.
 
 ## What It Produces
 

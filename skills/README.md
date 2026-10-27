@@ -20,7 +20,9 @@ The optional announcement companion, [eol-message](https://github.com/deanpeters
 
 Lifecycle map → Zombie ID → Cost Ledger → Revive/Replace/Retire → Exit plan → Announcement → Capacity Transfer.
 
-The lifecycle map is optional when the stage is clear. The Cost Ledger is required for a capacity transfer. A healthy or merely dated product does not automatically need an exit, and a revive decision follows a different path from retirement. The loop explains these branches.
+The lifecycle map is optional when the stage is clear. The Cost Ledger is required for a capacity transfer. A healthy or merely dated product stops the exit loop before the ledger and later steps; a standalone ledger can be requested separately. A revive decision follows a different path from retirement. The loop explains these branches.
+
+At each hard stop and at the end, the loop leads with a readout of at most 200 words, with source references, decision status, risks, and the next action. The reached artifacts follow separately.
 
 ## How to use a skill
 

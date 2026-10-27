@@ -2,6 +2,10 @@
 
 **The whole EOL loop** · Where it sits → Zombie ID → Cost ledger → Revive or replace → Comms plan → Announcement → Free the living
 
+## Readout (at most 200 words)
+
+Interim / Final · Finding: · Evidence IDs or source names: · Economics if known: · Decision status: · Customer risk or job: · Capacity status if relevant: · Next action and owner:
+
 ## Cover
 
 | | |
@@ -10,13 +14,15 @@
 | **Lifecycle stage** | |
 | **Verdict** | Healthy / Declining / Zombie / Just ugly |
 | **The ledger, in one line** | What it earns above the line: · What it eats below: |
-| **Decision** | Revive / Replace / Retire |
+| **Decision** | Pending / Revive / Replace / Retire / Not applicable (healthy or just ugly) |
 | **Decider** | |
 | **Decider's reason, in their words** | |
 | **Key dates** | NSC: · EOS: · EOL: · EOSL: |
 | **The trade** | We stop spending ___ on ___, and start spending it on ___, to get ___. |
 
 ## Decision log
+
+Use Pending, Confirmed (with source/person/date), or Not applicable / skipped. Preserve existing supplied funding decisions separately from new decisions requested by this loop. Do not list skipped gates as outstanding approvals.
 
 | Gate | Decision | Who | Date |
 |---|---|---|---|

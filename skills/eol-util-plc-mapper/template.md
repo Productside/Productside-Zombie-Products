@@ -36,7 +36,7 @@
 
 | Area | Question | Yes / No / Unknown |
 |---|---|---|
-| Marketing objective | Is defending market share still profitable? | |
+| Marketing objective | Has defending market share stopped being profitable? | |
 | Competition | Are loyalty efforts no longer retaining users? | |
 | Product | Are legacy support costs becoming unsustainable? | |
 | Promotion | Should we consider a product replacement? | |

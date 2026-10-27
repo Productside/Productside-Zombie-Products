@@ -70,13 +70,15 @@ This is not the decision itself. The Zombie ID Card says what the product *is*. 
 
 | Area | Mature posture | Declining posture | The question |
 |---|---|---|---|
-| Marketing objective | Defend market position | Maximize remaining value | Is defending market share still profitable? |
+| Marketing objective | Defend market position | Maximize remaining value | Has defending market share stopped being profitable? |
 | Competition | Emphasize brand loyalty | Consolidate customer base | Are loyalty efforts no longer retaining users? |
 | Product | Optimize extended CX | Streamline support | Are legacy support costs becoming unsustainable? |
 | Promotion | Loyalty incentives | Migration campaigns | Should we consider a product replacement? |
 | Place | Optimize channels | Profitable channels focus | Are we losing money on certain distribution channels? |
 | Price | Value-add bundles | Selective discounting | Are our value-add bundles losing effectiveness? |
 | Data strategy | Predictive modeling | Transition planning data | Is data shifting from predictive to transitional? |
+
+**Read each question literally.** Every Yes names a declining-side condition, including the first question. Missing evidence is **Unknown**, not No or Not present. “No evidence of migration” is Unknown; a supplied record affirmatively showing no migration can support Not present. Profitable overall economics do not prove support costs or every channel are healthy; falling subscriptions do not by themselves prove a loyalty program failed. Label proxy-based inferences and cite their source. Count Yes, No, and Unknown separately; the count is a diagnostic, not a majority-vote verdict.
 
 **What keeps a zombie alive.** Zombies survive on four forces, not on customer value: **inertia** (nobody chose it, the budget just rolled), **sunk cost** (we have come too far), **politics** (someone senior remembers when it printed money), and **legacy commitments** (contracts, SLAs, a few loud customers). Naming the force is what makes the next conversation possible.
 
@@ -114,9 +116,9 @@ In **Context dump** mode, sort what was pasted into `Known / Assumed / Missing /
 
 | Verdict | When |
 |---|---|
-| **Healthy** | Growing or mature; few or no reasons to retire present; the telltale questions are mostly "no." |
+| **Healthy** | Growing or mature with affirmative evidence of current value and viability; no material retirement case established. Unknown telltales remain unknown rather than being counted as healthy answers. |
 | **Declining** | In decline, with reasons emerging, and a named owner who is actively planning (extension, replacement, or exit). |
-| **Zombie** | In decline, several business or product reasons present, telltale questions mostly "yes," and no one owns the decision, or the product survives mainly on the lingering forces. |
+| **Zombie** | In decline, material business or product reasons to reconsider funding are supported, and no one owns the decision or the product survives mainly on lingering forces. Telltales strengthen the diagnosis; a majority of Yes answers is not required or sufficient. |
 | **Just ugly** | The only reasons offered are image or emotion; customers still get real value; it would be funded today. |
 
 When evidence is thin, say which verdict the evidence leans toward and what single fact would settle it. Do not force a verdict the evidence cannot carry.

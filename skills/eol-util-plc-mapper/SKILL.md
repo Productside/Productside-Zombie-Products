@@ -77,11 +77,13 @@ This is not a forecast. It uses the evidence the team has to name a stage and a 
 | Price | Value-based strategy | Premium or penetration | Competitive adjustment | Value-add bundles | Selective discounting |
 | Data strategy | Establish KPIs | Usage patterns | Segment analysis | Predictive modeling | Transition planning data |
 
-**The mature-to-declining questions.** The most expensive transition to miss is mature to declining. For each area, one question tells you which side you are on: Is defending market share still profitable? Are loyalty efforts no longer retaining users? Are legacy support costs becoming unsustainable? Should we consider a product replacement? Are we losing money on certain distribution channels? Are our value-add bundles losing effectiveness? Is data shifting from predictive to transitional?
+**The mature-to-declining questions.** The most expensive transition to miss is mature to declining. For each area, one question tells you which side you are on: Has defending market share stopped being profitable? Are loyalty efforts no longer retaining users? Are legacy support costs becoming unsustainable? Should we consider a product replacement? Are we losing money on certain distribution channels? Are our value-add bundles losing effectiveness? Is data shifting from predictive to transitional?
 
 **The mismatch is the finding.** The map's value is the gap between the posture the stage calls for and the posture the team is running. "Enhance and iterate" on a declining product is how roadmaps feed zombies.
 
 *Violation signal:* The map names a stage but never compares it with what the team is actually doing.
+
+**Question polarity and uncertainty.** Yes always means the declining-side condition holds. Answer the first question literally; never write “Yes, it is not profitable” against a positively phrased question. Missing evidence remains Unknown. Overall margin, subscription counts, and product age do not establish every support, channel, loyalty, or strategy claim. Cite supplied evidence and label inferences rather than filling those gaps as facts.
 
 ## Guided Context Capture
 

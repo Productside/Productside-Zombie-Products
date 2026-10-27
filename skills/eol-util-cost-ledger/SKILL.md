@@ -62,6 +62,8 @@ This is not a financial model or an accounting allocation. It is an honest, sour
 
 *Violation signal:* A figure appears with no source, or an unknown is quietly filled with a guess.
 
+**Cost is not cash released.** Keep three views distinct: revenue minus the listed costs for the same period; people capacity that may be redeployed; and outside payments that may be avoided. Loaded salaries stay a cost when people remain employed. A supplier payment is not automatically cancellable, and revenue also disappears on closure. Do not add a person's time to a loaded cost that already includes it. List notice, leases, refunds, severance, and other exit obligations as unknown until supplied. Do not call retirement ROI or a cash saving known when these terms are missing.
+
 **The forgone column is the point.** A product that breaks even can still be the most expensive thing in the portfolio if it holds the people who would build the next bet. Name the bet, not just "opportunity cost."
 
 ## Guided Context Capture

@@ -11,6 +11,8 @@
 
 ## Business reasons
 
+Use **Present** only with supporting evidence, **Not present** with affirmative counterevidence, and **Unknown** when the record is silent. “No migration evidence” means Unknown; it does not establish that no users migrated. Apply the same rule to the product reasons and telltale answers below.
+
 | Category | Signal | Present? | Evidence |
 |---|---|---|---|
 | Financial viability | Costs now exceed product revenue | present / not / unknown | |
@@ -37,7 +39,7 @@
 
 | Area | The question | Yes / No / Unknown | Why |
 |---|---|---|---|
-| Marketing objective | Is defending market share still profitable? | | |
+| Marketing objective | Has defending market share stopped being profitable? | | |
 | Competition | Are loyalty efforts no longer retaining users? | | |
 | Product | Are legacy support costs becoming unsustainable? | | |
 | Promotion | Should we consider a product replacement? | | |

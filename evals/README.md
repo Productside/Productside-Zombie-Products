@@ -36,6 +36,8 @@ Keep the transcript, model/version, date, mode, supplied files, tool use, human 
 
 Current limits are in [Verification](VERIFICATION.md). These scenarios are teaching and evaluation material, not evidence of real customer outcomes.
 
+The [October 27 behavioral report](reports/2026-10-27-loop-evaluation.md) records baseline failures, targeted skill corrections, and the final acceptance responses. It does not turn these authored examples into unseen holdout tests.
+
 ## Historical anchors and fiction boundary
 
 Netflix announced the end of its shrinking DVD business and final shipments on September 29, 2023. [Netflix's own announcement](https://about.netflix.com/en/news/netflix-dvd-the-final-season).

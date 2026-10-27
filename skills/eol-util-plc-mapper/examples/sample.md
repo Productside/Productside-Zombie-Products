@@ -34,7 +34,7 @@
 
 | Question | Answer |
 |---|---|
-| Is defending market share still profitable? | No |
+| Has defending market share stopped being profitable? | Yes |
 | Are loyalty efforts no longer retaining users? | Yes: churn continues despite renewal discounts |
 | Are legacy support costs becoming unsustainable? | Yes |
 | Should we consider a product replacement? | Yes: Insights exists |

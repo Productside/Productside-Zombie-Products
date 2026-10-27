@@ -99,6 +99,10 @@ For a digital or subscription product, production, supply chain, and inventory u
 
 *Violation signal:* The plan has an announcement date but no migration path, or customers hear before partners and sales are ready to answer them.
 
+**An unknown path is not an absent path or an available one.** A coverage gap, an unassessed replacement, and a confirmed alternative are different findings. Say “no confirmed alternative yet” when the assessment is missing. Do not turn the complement of an unavailable share into verified replacement coverage, or convert a share of the catalog into a share of customers. Every availability or migration promise needs its own supplied evidence.
+
+**A plan is not completed alignment.** In the action grid and rules-of-the-road check, use Planned / Pending / Confirmed with evidence. A proposed tell order does not mean the teams have been told or approved it. A drafted billing pull does not mean affected users have been identified. Keep draft dates and promises visibly gated until their owners confirm them.
+
 ## Guided Context Capture
 
 Open with: "We'll build the EOL Action Planning Worksheet: dates, who hears first, what every team does at each phase, and the customer path. If you have the Decision Record, I need very little else. How do you want to work? 1. Guided, 2. Context dump, 3. Best guess."

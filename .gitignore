@@ -78,3 +78,6 @@
 !/evals/criteria/
 /evals/criteria/*
 !/evals/criteria/expected-results.md
+!/evals/reports/
+/evals/reports/*
+!/evals/reports/2026-10-27-loop-evaluation.md
