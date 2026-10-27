@@ -101,6 +101,8 @@ For a digital or subscription product, production, supply chain, and inventory u
 
 **An unknown path is not an absent path or an available one.** A coverage gap, an unassessed replacement, and a confirmed alternative are different findings. Say “no confirmed alternative yet” when the assessment is missing. Do not turn the complement of an unavailable share into verified replacement coverage, or convert a share of the catalog into a share of customers. Every availability or migration promise needs its own supplied evidence.
 
+**Coordinate an external transition through a named owner.** For another vendor's product, verify account eligibility, job and integration coverage, data-transfer permission, customer acceptance, and support ownership/escalation between providers. Carry signed commercial terms into the customer path: calculate the discounted price and show its duration, renewal price, exclusions and any bundle repricing. Keep unresolved accounts on a supported path; do not force their support end from generic dates while the alternative or required acceptance remains unverified. A vendor offer alone does not approve migration or an announcement.
+
 **A plan is not completed alignment.** In the action grid and rules-of-the-road check, use Planned / Pending / Confirmed with evidence. A proposed tell order does not mean the teams have been told or approved it. A drafted billing pull does not mean affected users have been identified. Keep draft dates and promises visibly gated until their owners confirm them.
 
 ## Guided Context Capture

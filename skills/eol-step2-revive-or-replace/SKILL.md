@@ -57,6 +57,8 @@ This is not the communications plan. It decides *what* happens to the product. W
 | **Replace** | Replacement play | Introduce a new product to take the place of the existing one, offering similar or improved features while the old product is phased out. Go-to-market and end-of-life happen at the same time. | Address supply issues. Reduce production costs. Eliminate obsolete or unused features. Align with strategic business goals. Comply with regulatory issues. |
 | **Retire** | End of life | Phase out, support, and discontinue the product while managing customer transitions, operational changes, and regulatory compliance | The need is gone, the costs beat the value, and no extension or replacement earns its keep. |
 
+**A customer destination can belong to another vendor.** Retiring our own line can include a negotiated transition to a similar external product; it does not require launching an internal successor. Compare integration evidence and the actual customer price: calculate any offered discount, then state eligibility, duration, renewal price and exclusions. Distinguish a draft offer from signed terms and account acceptance. A discount can still mean a new bill for customers who received the old product in a bundle.
+
 **There is no fourth option.** "Continue as is" and "revisit next quarter" are not on the list. A product that survives does so because someone bet on it again, on current evidence.
 
 *Violation signal:* The record says "keep for now," "deprioritize," or "revisit," with no move chosen.

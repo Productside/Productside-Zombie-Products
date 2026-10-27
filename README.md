@@ -52,7 +52,7 @@ Each skill includes instructions, a blank template, and a worked example followi
 
 **Recognize → Count the cost → Decide → Protect the customer → Free the living**
 
-The lifecycle map is optional when the stage is clear. The Cost Ledger is required before a capacity transfer. A healthy or merely dated product does not automatically need an exit. A revive decision follows an extension path; it does not trigger a retirement announcement.
+The lifecycle map is optional when the stage is clear. The Cost Ledger is required before a capacity transfer. A healthy or merely dated product does not automatically need an exit. A revive decision follows an extension path; it does not trigger a retirement announcement. Retiring your own line can include a supported transition to another vendor, with verified integration and customer terms.
 
 **The assistant does the drafting. Humans make the calls.** A named Decider owns revive, replace, or retire. The responsible people confirm figures, communication dates, customer promises, and capacity commitments.
 
@@ -78,9 +78,9 @@ Legal and finance hear early. Teams carrying customer commitments align before t
 
 Best guess does not authorize the assistant to choose the decision or invent financial figures.
 
-## Try six fictional scenarios
+## Try seven fictional scenarios
 
-[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Four more cases test an extension opportunity, an incomplete successor, a profitable incumbent versus an unproven bet, and conflicting financial records. Can the loop distinguish a zombie from a product that deserves to live?
+[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Four more cases test an extension opportunity, an incomplete successor, a profitable incumbent versus an unproven bet, and conflicting financial records. A seventh tests a transition to another vendor with a negotiated customer discount. Can the loop distinguish a zombie from a product that deserves to live?
 
 The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) records the behavioral runs, findings, corrections, and remaining limits.
 

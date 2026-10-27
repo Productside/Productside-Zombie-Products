@@ -20,6 +20,7 @@ Updated October 27, 2026. See the [original behavioral findings](reports/2026-10
 | Guided interaction | Three scripted turns observed | Partial answers and unknowns carried forward; full Guided workflow and real interview quality untested |
 | Native Claude discovery | Observed in fresh external folder with project settings enabled | All seven skills advertised; loop and companion/template access, healthy early branch observed; not user-wide installation or every branch |
 | Separate Codex model comparison | Case 06 executed with gpt-5.6-sol | Seven criteria observed on this one case; inline instructions, not native skill discovery or reliability evidence |
+| External-vendor transition, case 07 | Two phases run before and after narrow decision/comms changes with claude-sonnet-5-5 | Baseline 10/12 numbered criteria; repeat 12/12. Supplemental source-fidelity and draft-trade issues remain; see [vendor report](reports/2026-10-27-vendor-transition.md) |
 | Independent human review | Private packet prepared; not graded | No completed human review or independent pass claimed |
 | Unseen holdouts and real use | Not performed | Authored cases and development repeats do not establish reliability or customer outcomes |
 

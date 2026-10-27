@@ -1,6 +1,6 @@
 # Is it a zombie, or does it deserve to live?
 
-Six fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmetic, branches, and human decision gates. They test zombies, useful incumbents, extension opportunities, incomplete replacements, and decisions made with unreliable records.
+Seven fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmetic, branches, and human decision gates. They test zombies, useful incumbents, extension opportunities, incomplete replacements, and decisions made with unreliable records.
 
 | Scenario | Situation or historical inspiration | What it tests |
 |---|---|---|
@@ -10,6 +10,7 @@ Six fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmetic,
 | [The Missing Export](cases/04-the-missing-export.md) | Fictional incomplete replacement | Customer-job coverage, failed trials, conflicting dates, and gated migration |
 | [The Next Big Bet](cases/05-the-next-big-bet.md) | Fictional allocation conflict | A profitable incumbent versus an unproven proposal; people capacity versus cash |
 | [The Missing Ledger](cases/06-the-missing-ledger.md) | Fictional conflicting records | Incompatible revenue measures, overlapping roles, stale expenses, and pressure to bypass approval |
+| [The Neighboring Vendor](cases/07-the-neighboring-vendor.md) | Fictional external-vendor transition | Mission mismatch, bundled economics, integration readiness, and a negotiated customer discount |
 
 ## Try one
 
@@ -30,7 +31,7 @@ For the non-zombie case, replace the filename with `evals/cases/02-the-second-ex
 
 For a blinded behavioral run, create a separate temporary folder containing only the seven skill folders' `SKILL.md` and `template.md` files, plus one case file. Exclude skill examples, evaluator criteria, this guide, prior responses, and every other scenario. Start a fresh assistant in that folder; do not give it access to the original Project. Follow the selected skill's human gates.
 
-The evaluator keeps [original expected results and facilitator turns](criteria/expected-results.md) and [expanded criteria and turns](criteria/expanded-expected-results.md) separately. Case 01 has two phases: the initial response must stop at the missing Decider; only then may a human provide its scripted fictional reply to continue. Case 02 should stop early without planning an exit. These are deliberately different paths, not a demonstration that must run every step.
+The evaluator keeps [original expected results and facilitator turns](criteria/expected-results.md), [expanded criteria and turns](criteria/expanded-expected-results.md), and [vendor-transition criteria and turn](criteria/vendor-expected-results.md) separately. Case 01 has two phases: the initial response must stop at the missing Decider; only then may a human provide its scripted fictional reply to continue. Case 02 should stop early without planning an exit. These are deliberately different paths, not a demonstration that must run every step.
 
 For a teaching demo, the facilitator may read the criteria in advance. Label that as a rehearsal, not a blinded evaluation.
 
@@ -53,3 +54,7 @@ Polaroid describes ending instant-film production in 2008, enthusiasts saving th
 Sources checked October 27, 2026. These anchors supply the situation, not the verdict. They do not establish that either real business was a zombie, quantify its economics, or reveal its internal decision process. Night Owl Disc Club and Second Exposure are invented products. Every figure, evidence record, owner, obligation, date, and approval in the cases is fictional; none should be attributed to Netflix or Polaroid. No private historical notes or source presentations are included.
 
 Cases 03–06 are wholly fictional stress scenarios. They are not factual accounts of named historical businesses.
+
+Case 07 adapts a practitioner-described pattern into wholly fictional evidence: retire a line outside the mission, and coordinate a transition and discount with another vendor. Its invented terms and integration results do not describe an actual agreement.
+
+The [vendor-transition evaluation](reports/2026-10-27-vendor-transition.md) records the two-phase commercial bridge test, observed gaps and targeted instruction changes.

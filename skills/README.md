@@ -40,6 +40,8 @@ For local Claude Code use and a starter prompt, see the [Project README](../READ
 
 The [Markdown worksheet](../templates/EOL-Action-Planning-Worksheet.md) and [Excel worksheet](../templates/EOL-Action-Planning-Worksheet.xlsx) can be used without an assistant. Excel includes a blank worksheet and a fictional worked example; that example is a starting point, not a completed plan for your product.
 
+A retirement can offer customers a similar product from another vendor. Coordinate the integration, data and support handoff, eligibility, discounted price, renewal terms, and any new bill for bundled users before making promises.
+
 Timing intervals are planning defaults. Confirm actual obligations with the responsible legal, finance, and plan owners before making customer promises.
 
 ## Attribution and limits
