@@ -59,7 +59,7 @@ This is not the decision. If the product has not been decided, run `eol-step2-re
 | **EOL** End of Life | The product reaches the end of its lifecycle; support transition begins | Support transition begins | About 3 months after EOE |
 | **EOSL** End of Service Life | All support and services cease | Final day of support | About 3 months after EOL |
 
-Timings are defaults. Contracts, SLAs, and regulation can only lengthen them.
+Timings are planning defaults. Their configurable range is not an applicable legal or contractual minimum. When obligations are unknown, say they are unverified; do not assert that a requested date breaches a contract merely because it is shorter than a default. Confirm actual constraints before proposing a committed notice or closure date. Verified obligations may require longer intervals.
 
 **First stop: legal or finance. Last stop: engineering.** Everyone goes to engineering first because that is where the product lives. It is exactly backward. Legal needs to know what is owed (contracts, SLAs, regulatory obligations). Finance needs to know what it does to forecasts and revenue. Then sales, partners, customer success, and enablement. Engineering is the last internal stop, after the groups who carry the commitments.
 

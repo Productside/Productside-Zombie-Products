@@ -64,6 +64,8 @@ This is not a financial model or an accounting allocation. It is an honest, sour
 
 **Cost is not cash released.** Keep three views distinct: revenue minus the listed costs for the same period; people capacity that may be redeployed; and outside payments that may be avoided. Loaded salaries stay a cost when people remain employed. A supplier payment is not automatically cancellable, and revenue also disappears on closure. Do not add a person's time to a loaded cost that already includes it. List notice, leases, refunds, severance, and other exit obligations as unknown until supplied. Do not call retirement ROI or a cash saving known when these terms are missing.
 
+**Align the records before netting.** Preserve period, product/bundle scope, and basis (cash, recognized revenue, contract value, forecast, headcount, or FTE). Do not infer calendar or fiscal dates from a year label alone. A historical invoice does not establish a current expense or contract. Deduplicate identified people and work before converting effort to cost; headcount and FTE are not interchangeable. If the records cannot be aligned, keep the figures separately, leave the net Unknown, and ask for reconciliation.
+
 **The forgone column is the point.** A product that breaks even can still be the most expensive thing in the portfolio if it holds the people who would build the next bet. Name the bet, not just "opportunity cost."
 
 ## Guided Context Capture

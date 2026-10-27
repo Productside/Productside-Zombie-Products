@@ -81,3 +81,9 @@
 !/evals/reports/
 /evals/reports/*
 !/evals/reports/2026-10-27-loop-evaluation.md
+!/evals/cases/03-the-rugged-label.md
+!/evals/cases/04-the-missing-export.md
+!/evals/cases/05-the-next-big-bet.md
+!/evals/cases/06-the-missing-ledger.md
+!/evals/criteria/expanded-expected-results.md
+!/evals/reports/2026-10-27-expanded-evaluation.md

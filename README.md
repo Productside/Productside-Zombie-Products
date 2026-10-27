@@ -78,9 +78,9 @@ Legal and finance hear early. Teams carrying customer commitments align before t
 
 Best guess does not authorize the assistant to choose the decision or invent financial figures.
 
-## Try two fictional scenarios
+## Try six fictional scenarios
 
-[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Can the loop distinguish a zombie from a product that deserves to live?
+[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Four more cases test an extension opportunity, an incomplete successor, a profitable incumbent versus an unproven bet, and conflicting financial records. Can the loop distinguish a zombie from a product that deserves to live?
 
 The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) records the behavioral runs, findings, corrections, and remaining limits.
 
