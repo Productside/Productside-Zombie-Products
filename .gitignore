@@ -64,3 +64,6 @@
 /templates/*
 !/templates/EOL-Action-Planning-Worksheet.md
 !/templates/EOL-Action-Planning-Worksheet.xlsx
+!/media/
+/media/*
+!/media/zombie-survival-kit.png
