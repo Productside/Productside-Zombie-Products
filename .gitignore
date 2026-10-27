@@ -67,3 +67,14 @@
 !/media/
 /media/*
 !/media/zombie-survival-kit.png
+!/evals/
+/evals/*
+!/evals/README.md
+!/evals/VERIFICATION.md
+!/evals/cases/
+/evals/cases/*
+!/evals/cases/01-the-last-envelope.md
+!/evals/cases/02-the-second-exposure.md
+!/evals/criteria/
+/evals/criteria/*
+!/evals/criteria/expected-results.md

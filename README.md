@@ -78,6 +78,12 @@ Legal and finance hear early. Teams carrying customer commitments align before t
 
 Best guess does not authorize the assistant to choose the decision or invent financial figures.
 
+## Try two fictional scenarios
+
+[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Can the loop distinguish a zombie from a product that deserves to live?
+
+The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) distinguishes checked arithmetic from behavioral runs that have not yet happened.
+
 ## Saw it in the webinar?
 
 This is the companion kit for Productside's **Post Launch Success Series (Part 1): How to Kill Zombie Products**, October 28, 2026, with Dean Peters and Kenny Kranseler.
