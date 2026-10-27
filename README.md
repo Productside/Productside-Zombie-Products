@@ -26,7 +26,7 @@ Replace the fictional product with your own situation when you are ready. Do not
 
 **Other assistants:** provide [the loop instructions](skills/eol-run-zombie-to-exit/SKILL.md), its [output template](skills/eol-run-zombie-to-exit/template.md), and the companion skill files it calls for. If commands are not discovered, ask the assistant to read those files directly, or copy their contents into the conversation.
 
-[How to use the skills](skills/README.md#how-to-use-a-skill) · [Fictional worked example](skills/eol-run-zombie-to-exit/examples/sample.md) · [Excel worksheet](https://github.com/Productside/Productside-Zombie-Products/raw/refs/heads/main/templates/EOL-Action-Planning-Worksheet.xlsx) · [Markdown worksheet](templates/EOL-Action-Planning-Worksheet.md)
+[How to use the skills](skills/README.md#how-to-use-a-skill) · [Fictional worked example](skills/eol-run-zombie-to-exit/examples/sample.md) · [Excel worksheet](https://github.com/Productside/Productside-Zombie-Survival-Kit/raw/refs/heads/main/templates/EOL-Action-Planning-Worksheet.xlsx) · [Markdown worksheet](templates/EOL-Action-Planning-Worksheet.md)
 
 No assistant? Use the worksheet by hand. Excel includes a blank worksheet and a fictional worked example.
 
