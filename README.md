@@ -6,7 +6,7 @@
 
 **7 skills: the whole zombie-to-exit loop, six individual skills, and an action-planning worksheet.**
 
-For Product Managers, product leaders, and product teams dealing with products that stopped earning their keep but somehow keep getting funded. Find the full cost, prepare a **Revive, Replace, or Retire** decision, protect customers through the transition, and give the freed capacity somewhere useful to go.
+For Product Managers, product leaders, and product teams dealing with products that stopped earning their keep but somehow keep getting funded. Find the full cost, prepare a **Retain, Revive, Replace, or Retire** decision, protect customers through the transition, and give the freed capacity somewhere useful to go.
 
 **Ugly is not dead. Declining is not a verdict.** Start with evidence before ordering the headstone.
 
@@ -19,7 +19,7 @@ In Claude Code, open this Project as your working folder and try:
 Classic Reports is a fictional reporting portal for fleet operations managers.
 Revenue has fallen for three years and support load is rising.
 Use guided questions. Label missing evidence and assumptions.
-Stop for my revive, replace, or retire decision.
+Stop for my retain, revive, replace, or retire decision.
 ```
 
 Replace the fictional product with your own situation when you are ready. Do not treat the sample's figures or dates as customer evidence.
@@ -28,7 +28,9 @@ Replace the fictional product with your own situation when you are ready. Do not
 
 [How to use the skills](skills/README.md#how-to-use-a-skill) · [Fictional worked example](skills/eol-run-zombie-to-exit/examples/sample.md) · [Excel worksheet](https://github.com/Productside/Productside-Zombie-Survival-Kit/raw/refs/heads/main/templates/EOL-Action-Planning-Worksheet.xlsx) · [Markdown worksheet](templates/EOL-Action-Planning-Worksheet.md)
 
-No assistant? Use the worksheet by hand. Excel includes a blank worksheet and a fictional worked example.
+Try the [three-prompt Classic Reports manual demo](demos/classic-reports.md): a fictional 1994 fintech report, $75K operating cost, the Rust rewrite mandate, and a prepared requirement-change reveal. Compare all four motions, make the human choice, then follow its branch.
+
+No assistant? Use the worksheet by hand. Excel includes a four-motion decision worksheet, a fictional Replace example, and separate Replace and Retire tabs.
 
 ## The skills
 
@@ -41,7 +43,7 @@ Use one skill for the decision in front of you, or the loop to carry the same co
 | Recognize | [eol-step1-zombie-id](skills/eol-step1-zombie-id/SKILL.md) | Separate a zombie from a healthy, declining, or merely dated product | Zombie ID Card |
 | Count the cost | [eol-util-cost-ledger](skills/eol-util-cost-ledger/SKILL.md) | Count what it earns, what it eats, and what it prevents | Cost Ledger |
 | Decide | [eol-step2-revive-or-replace](skills/eol-step2-revive-or-replace/SKILL.md) | Prepare an evidence-backed recommendation for one named Decider | Decision Record |
-| Plan the exit | [eol-step3-comms-plan](skills/eol-step3-comms-plan/SKILL.md) | Align the calendar, teams, communication order, and customer path | EOL Action Planning Worksheet |
+| Plan Replace or Retire | [eol-step3-comms-plan](skills/eol-step3-comms-plan/SKILL.md) | Sequence conversations and actions for the selected motion | Replacement Launch and Exit OR Retirement Closure Worksheet |
 | Free the living | [eol-step4-free-the-living](skills/eol-step4-free-the-living/SKILL.md) | Redirect the freed people, money, and roadmap room | Capacity Transfer |
 
 The announcement companion, [eol-message](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message), is part of Dean Peters' separate Product Manager Skills collection. It is linked, not bundled. The loop provides a labeled fallback when it is unavailable.
@@ -50,18 +52,29 @@ Each skill includes instructions, a blank template, and a worked example followi
 
 ## The zombie-to-exit loop
 
-**Recognize → Count the cost → Decide → Protect the customer → Free the living**
+**Recognize → Count the cost → Decide → Follow the selected motion**
 
-The lifecycle map is optional when the stage is clear. The Cost Ledger is required before a capacity transfer. A healthy or merely dated product does not automatically need an exit. A revive decision follows an extension path; it does not trigger a retirement announcement. Retiring your own line can include a supported transition to another vendor, with verified integration and customer terms.
+The four motions are distinct:
 
-**The assistant does the drafting. Humans make the calls.** A named Decider owns revive, replace, or retire. The responsible people confirm figures, communication dates, customer promises, and capacity commitments.
+| Motion | Meaning | Next plan |
+|---|---|---|
+| **Retain** | Operate the current product **as is** | Operating scope, budget/capacity ceiling, owner, review date and reconsideration triggers |
+| **Revive** | **Extend** the current product | Extension hypothesis, investment, owner and evidence check |
+| **Replace** | Introduce a **successor product** and phase out the old one | [Successor launch and old-product exit](skills/eol-step3-comms-plan/replace-template.md), with rollout, migration and acceptance |
+| **Retire** | **Close without a successor** | [Retirement closure](skills/eol-step3-comms-plan/retire-template.md), with obligations, records, final support and customer impact |
+
+The lifecycle map is optional. A healthy or merely dated finding can still stop the exit loop; it is not an invented Retain approval. Retain and Revive do not trigger an EOL announcement. A successor from another vendor is a Replace path. Temporary support or records access during closure does not itself supply a successor.
+
+**The assistant recommends; humans decide.** Step 2 ranks all four motions, then stops for the named Decider's word and reason. Separate people approve operating limits, investment, communication dates, customer promises and capacity commitments. No motion automatically produces cash savings or releases people. A Cost Ledger is required before any Capacity Transfer.
+
+Existing command names are unchanged. The worked examples and Markdown/Excel takeaways follow the four motions. The Excel file includes the decision worksheet, a fictional Replace example, and separate Replace and Retire tabs. [Current teaching revisions](evals/README.md#current-four-motion-practice-revisions) distinguish successor paths from closure; original evaluation inputs/results remain historical. Behavioral validation of the changed branches is pending.
 
 ## Five rules for surviving your portfolio
 
 | Rule | The nightmare it helps you avoid |
 |---|---|
 | **Recognize the Walking Dead** | Funding it by default because nobody counted the full cost |
-| **Decide: Revive, Replace, or Retire** | Letting nostalgia or the loudest voice make the call |
+| **Decide: Retain, Revive, Replace, or Retire** | Letting nostalgia or the loudest voice make the call |
 | **Kill the Product, Not the Customer Relationship** | Leaving loyal customers stranded at the exit |
 | **Make Retirement a Team Sport** | Discovering contracts, bundles, and promises after the announcement |
 | **Free the Living from the Dead** | Retiring the product while the next good bet still starves |

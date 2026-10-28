@@ -1,6 +1,6 @@
 # Zombie ID Card
 
-**Step 1 of the EOL loop** · Zombie ID → Revive or replace → Comms plan
+**Step 1 of the EOL loop** · Zombie ID → Four-motion decision → Comms plan
 
 | | |
 |---|---|
@@ -76,7 +76,7 @@ Use **Present** only with supporting evidence, **Not present** with affirmative 
 
 **Confirmed by:**
 
-## Handoff to revive, replace, or retire
+## Handoff to retain, revive, replace, or retire
 
 - Strongest reasons to retire:
 - Strongest reasons to keep:

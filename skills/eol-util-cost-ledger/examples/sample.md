@@ -54,3 +54,5 @@ What it earns above the line: about $1.1M from a shrinking base. What it eats be
 
 - Run `eol-step2-revive-or-replace` with this ledger and the Zombie ID Card.
 - After the exit, run `eol-step4-free-the-living` to move the squad and support capacity it frees.
+
+**Scope and handoff:** this is the canonical fictional fleet-reporting Classic Reports, launched in 2014. The card/ledger is evidence for a Retain, Revive, Replace or Retire decision, not the decision itself. The 1994 fintech demo is a separate variant.

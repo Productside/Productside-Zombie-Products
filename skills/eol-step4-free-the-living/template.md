@@ -1,6 +1,6 @@
 # Capacity Transfer
 
-**Step 4 of the EOL loop** · Zombie ID → Revive or replace → Comms plan → *Free the living*
+**Step 4 of the EOL loop** · Zombie ID → Four-motion decision → Selected Replace/Retire plan → *Free the living*
 
 | | |
 |---|---|

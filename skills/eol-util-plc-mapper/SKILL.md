@@ -16,7 +16,7 @@ best-for:
   - "Setting stage-appropriate objectives and KPIs"
 scenarios:
   - "Sales have been flat for a year and the roadmap still reads like a growth plan"
-  - "A team wants to know whether to plan an extension, a replacement, or an exit"
+  - "A team wants evidence for operating as is, extending, introducing a successor, or closing without one"
 produces:
   - "PLC Strategy Map: the four signals, stage and evidence, stage-appropriate posture in seven areas, current posture, gaps, transition questions"
 downstream:
@@ -40,7 +40,7 @@ Use this skill when you need to:
 - set stage-appropriate objectives and KPIs
 - decide whether to run `eol-step1-zombie-id` next (mature or declining products)
 
-This is not a forecast. It uses the evidence the team has to name a stage and a posture.
+This is not a forecast or a disposition decision. It uses evidence to name a stage and posture. Retain (as is), Revive (extend), Replace (successor) and Retire (no successor) are separately compared in step 2; a declining stage does not automatically require closure.
 
 ## Key Concepts
 

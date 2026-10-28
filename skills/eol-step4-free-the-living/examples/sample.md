@@ -1,21 +1,21 @@
 # Worked example: Capacity Transfer
 
-**Fictional product, illustrative figures and dates.** Continues from the Cost Ledger and the EOL Action Planning Worksheet examples.
+**Fictional product, illustrative figures and dates.** Continues from the Cost Ledger and Replacement Launch and Exit Worksheet examples.
 
 | | |
 |---|---|
-| **Retiring** | Classic Reports |
+| **Old product being replaced** | Classic Reports |
 | **Decision** | Replace with Insights (plus a fuel-tax report module) |
 | **Next bet owner** | The Insights product manager |
-| **Trade approved by** | VP of Product (the Decider) |
+| **Trade approval** | Pending: Morgan Vale and the receiving owner |
 
 ## 1. What the exit frees
 
 | Line | People or amount | Frees at (phase and date) | Source |
 |---|---|---|---|
-| Engineering maintenance | About a third of one squad (3 engineers) | NSC, Feb 1, 2027 (maintenance-only); fully at EOL, Feb 1, 2028 | Cost Ledger |
-| Support | About 2 agents | Half at EOL, Feb 1, 2028; all at EOSL, May 1, 2028 | Cost Ledger |
-| Infrastructure and licenses | $60K a year, plus the $150K extended engine support never bought | EOSL, May 1, 2028 | Cost Ledger; vendor quote |
+| Engineering maintenance | About a third of one squad (3 engineers) | Amount/date Pending; rollout, migration and ongoing maintenance must be staffed | Cost Ledger |
+| Support | About 2 agents | Amount/date Pending; migration and continued customer support remain work | Cost Ledger |
+| Infrastructure and licenses | $60K annual gross expense; the $150K quote is an unapproved future option, not savings | EOSL, May 1, 2028 | Cost Ledger; vendor quote |
 | Compliance scope | The old engine leaves the audit | EOSL, May 1, 2028 | Last audit |
 | Roadmap room | One maintenance slot per sprint | NSC, Feb 1, 2027 | Squad lead |
 
@@ -32,12 +32,12 @@
 
 | What the bet needs | What the exit frees | Gap |
 |---|---|---|
-| Two engineers who know the fuel-tax rules | The Classic squad wrote the original fuel-tax reports | None; this is the best-fit team |
+| Two engineers who know the fuel-tax rules | The Classic squad wrote the original fuel-tax reports | Skills may fit; overlapping allocations and receiving acceptance remain unconfirmed |
 | A support playbook for migrating customers | The 2 support agents know these accounts | Train them on Insights before NSC |
 
 ## 4. The trade (one line for leadership)
 
-We stop spending a third of a squad and two support agents on Classic Reports, and start spending them on the fuel-tax module and alerts in Insights, to keep the 12 contracted accounts and give fleet managers same-day alerts.
+Proposed: after funding successor rollout and preserving Classic obligations, assign only evidenced net capacity to fuel-tax reporting and alerts. Amount, dates, outcome approval and receiving acceptance remain Pending. Retained salaries are not cash savings.
 
 ## 5. Now, next, later
 
@@ -49,4 +49,4 @@ We stop spending a third of a squad and two support agents on Classic Reports, a
 
 ## 6. Guardrail
 
-The Classic Reports budget line closes at EOSL and does not roll forward; the squad's sprint board moves to the Insights backlog at NSC.
+Proposed: close the budget line only after verified obligations and approved closure. Do not move the squad at notice by default. Morgan Vale and the receiving owner must approve the net transfer; replacement may consume capacity before releasing it.

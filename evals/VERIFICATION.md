@@ -1,6 +1,9 @@
 # Evaluation status
 
-Updated October 27, 2026. See the [original behavioral findings](reports/2026-10-27-loop-evaluation.md) and [expanded criterion-level grades and execution checks](reports/2026-10-27-expanded-evaluation.md).
+Updated October 28, 2026.
+
+**Four-motion update:** instructions, examples and takeaways now distinguish Retain, Revive, Replace and Retire. Current teaching revisions of cases 07/09 have not been behaviorally evaluated; the results below remain historical observations of the earlier inputs and instructions. Structural/file checks do not validate the new branches.
+ See the [original behavioral findings](reports/2026-10-27-loop-evaluation.md) and [expanded criterion-level grades and execution checks](reports/2026-10-27-expanded-evaluation.md).
 
 | Check | Status | What that means |
 |---|---|---|

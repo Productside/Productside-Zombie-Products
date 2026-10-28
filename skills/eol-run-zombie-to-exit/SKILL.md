@@ -1,11 +1,11 @@
 ---
 name: eol-run-zombie-to-exit
-description: Run the whole zombie-to-exit loop on one product (lifecycle map, Zombie ID, cost ledger, revive-replace-retire decision, exit plan, announcement, and capacity transfer), handing each step's output to the next and stopping at every human decision. Use when you want the full end-of-life pack for a product in one session instead of running each step by hand.
+description: Run diagnosis and a retain-revive-replace-retire decision on one product, then route to its operating, extension, replacement or closure plan and only applicable downstream work, stopping at human decisions. Use when you want the appropriate operating, extension, replacement or retirement branch in one session.
 license: CC-BY-NC-SA-4.0
 argument-hint: "[the product and everything you know: lifecycle, revenue trend, costs, customers, contracts, owner]"
 intent: >-
-  Help a Product Manager take one aging product from "is it a zombie?" to "where does the freed
-  capacity go?" in a single guided run, reusing each EOL step's own instructions, carrying context
+  Help a Product Manager take one aging product from diagnosis to a four-motion decision and
+  its selected plan in a single guided run, reusing each step’s own instructions, carrying context
   forward so nothing is asked twice, and pausing for the humans who own each decision.
 type: workflow
 theme: product-end-of-life
@@ -18,7 +18,7 @@ scenarios:
   - "A product has been limping for years and leadership wants a recommendation and a plan by Friday"
   - "A workshop team wants to practice the whole loop on one real product"
 produces:
-  - "Zombie-to-Exit Pack: PLC Strategy Map, Zombie ID Card, Cost Ledger, Decision Record, EOL Action Planning Worksheet, announcement draft, and Capacity Transfer, with every human decision recorded"
+  - "Zombie-to-Exit Pack: diagnosis and Decision Record, the selected Operating, Extension, Replacement or Retirement plan, and only applicable downstream artifacts; every human decision recorded"
 uses:
   - eol-util-plc-mapper
   - eol-step1-zombie-id
@@ -35,7 +35,7 @@ source-basis:
 
 ## Purpose
 
-Produce a **Zombie-to-Exit Pack**: every artifact in the end-of-life loop for one product, in order, from one guided run.
+Produce a **Zombie-to-Exit Pack**: the artifacts appropriate to one product’s Retain, Revive, Replace or Retire decision, with skipped branches identified.
 
 Each step already has its own skill. This one runs them in sequence, reads each step's instructions from its own `SKILL.md`, carries every answer forward, and stops wherever a human owns the call. It adds no new method; it removes the re-pasting.
 
@@ -48,14 +48,25 @@ Use this skill when you want the whole loop. Use the individual steps when you o
 | 0 | Where it sits *(optional)* | `eol-util-plc-mapper` | PLC Strategy Map | The PM confirms the stage |
 | 1 | Is it a zombie? | `eol-step1-zombie-id` | Zombie ID Card | The PM confirms the verdict |
 | 1b | What it really costs *(optional)* | `eol-util-cost-ledger` | Cost Ledger | The PM confirms figures and labels |
-| 2 | Revive, replace, or retire? | `eol-step2-revive-or-replace` | Decision Record | **The Decider says one word** |
-| 3 | Plan the exit | `eol-step3-comms-plan` | EOL Action Planning Worksheet | The PM and plan owner approve the tell order and notice date |
+| 2 | Retain, revive, replace, or retire? | `eol-step2-revive-or-replace` | Decision Record | **The Decider says one word** |
+| 3 | Plan Replace or Retire | `eol-step3-comms-plan` | Replacement Launch and Exit Worksheet OR Retirement Closure Worksheet | The PM and plan owner approve the tell order and notice date |
 | 3b | Write the announcement | `eol-message` (Product Manager Skills) | Announcement draft | Legal and the plan owner approve the text |
 | 4 | Free the living | `eol-step4-free-the-living` | Capacity Transfer | The budget owner approves the trade |
 
-**Branches.** If step 1 says *healthy* or *just ugly*, stop immediately before step 1b and record why. Mark the remaining loop artifacts and gates **Not applicable / skipped**, including an optional ledger requested as part of the loop. A user can request a standalone ledger separately; explain that distinction rather than running an exit sequence to fill every slot. Preserve existing evidence-backed funding and ownership records; do not require a fresh revive/replace/retire word for a healthy product. If step 2's Decider says **revive**, skip steps 3 and 3b, record the extension play, its owner, and the evidence check date, then run step 4 only if the revive itself frees capacity elsewhere.
+**Early finding is not a Retain decision.** If step 1 says *healthy* or *just ugly*, preserve the existing early stop before step 1b, its evidence and any valid funding/ownership record. Mark remaining artifacts/gates Not applicable / skipped. Do not invent a Retain approval. If the user explicitly requests a new four-motion decision despite that finding, continue to step 2 without treating health or appearance as an exit recommendation. A separately requested ledger can still be run.
 
-**Where `eol-message` lives.** It is in Dean Peters' Product Manager Skills collection (CC BY-NC-SA 4.0): [eol-message in Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message). Depending on how it was installed, it may be invoked as `eol-message` or with a collection prefix (for example `anthropic-skills:eol-message`); look for either. If it is not installed, draft a clearly labeled fallback announcement from the worksheet's customer path and key messages. Include the affected product and audience, the change and reason, dates, migration path, support commitment, and contact. Do not claim to have used the unavailable skill.
+**Four branches after the human decision.** Use the definitions in [step 2](../eol-step2-revive-or-replace/SKILL.md): Retain operates as is; Revive extends this product; Replace introduces a successor; Retire ends it without one. If a supplied label conflicts with the proposed successor or scope, preserve the record and stop for clarification, even in Best guess. Never silently change the human's word.
+
+| Chosen motion | Required branch artifact | Downstream routing |
+|---|---|---|
+| **Retain** | Operating Plan in the Decision Record: value, scope, budget/capacity ceiling, operating owner, review date, triggers and approvals | Skip steps 3, 3b and automatic step 4. Unknown limits stay Pending; do not approve indefinite operation. |
+| **Revive** | Extension Plan in the Decision Record: hypothesis, customer/segment, outcome, investment, owner, test and evidence-review date | Skip steps 3 and 3b. Run step 4 only if separately evidenced capacity is actually being released elsewhere. |
+| **Replace** | Replacement Launch and Exit Worksheet: successor rollout plus old-product exit, migration, acceptance and overlap | Step 3 uses `replace-template.md`; step 3b announces the replacement and supported old-product exit, with promises gated. |
+| **Retire** | Retirement Closure Worksheet: lost capability, customer impact, obligations, records and final support; no successor | Step 3 uses `retire-template.md`; step 3b announces closure without fabricating a migration destination. |
+
+Continued support during an approved Replace/Retire plan is execution of that plan, not a new Retain or Revive decision. For Replace/Retire, assess step 4 against the ledger and continuing obligations, including successor launch/overlap costs. Draft Unknown amounts where necessary; if there is no capacity transfer to propose, mark it Not applicable with the reason. No branch guarantees cash savings or authorizes staffing/budget moves.
+
+**Where `eol-message` lives.** It is in Dean Peters' Product Manager Skills collection (CC BY-NC-SA 4.0): [eol-message in Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-message). Depending on how it was installed, it may be invoked as `eol-message` or with a collection prefix (for example `anthropic-skills:eol-message`); look for either. If it is not installed, draft a clearly labeled fallback announcement only for Replace or Retire, from the selected worksheet's customer path and key messages. Include the affected product and audience, the change and reason, dates, the branch-specific customer path (migration for Replace; closure/records/assistance for Retire), support commitment, and contact. Do not claim to have used the unavailable skill.
 
 **The ledger is required for step 4.** The cost ledger is optional when the loop stops at a decision or an exit plan. If step 4 will run, run the ledger too: step 4 moves what the ledger counts.
 
@@ -72,7 +83,7 @@ Use this skill when you want the whole loop. Use the individual steps when you o
 | Guided, Context dump | Every gate in the loop table | |
 | Best guess | **The Decider gate only** | Draft through it, mark the gate *pending* in the decision log, and list it under "Confirmations needed" at the end |
 
-A *pending* gate is not a confirmation. The pack is a draft until every pending gate has a named person and a date. The agent never picks revive, replace, or retire, in any mode.
+A *pending* gate is not a confirmation. The pack is a draft until every pending gate has a named person and a date. The agent never picks Retain, Revive, Replace or Retire, in any mode.
 
 *Violation signal:* The pack contains a decision with no named person and date, or a pending gate shown as confirmed.
 
@@ -90,25 +101,25 @@ A *pending* gate is not a confirmation. The pack is a draft until every pending 
 
 ## Guided Context Capture
 
-Open with: "We'll take this product from 'is it a zombie?' to 'where does the freed capacity go?' I'll stop for you at each decision. How do you want to work? 1. Guided, 2. Context dump, 3. Best guess. And do you want the optional lifecycle map and cost ledger? (Recommended: yes to both.)"
+Open with: "We'll take this product from 'is it a zombie?' to an explicit four-motion decision and its appropriate plan. I'll stop for you at each decision. How do you want to work? 1. Guided, 2. Context dump, 3. Best guess. And do you want the optional lifecycle map and cost ledger? (Recommended: yes to both.)"
 
 In **Guided** mode, ask one at a time, then start the loop:
 
 1. `Loop Q1/6`: What is the product, who uses it day to day, and how long has it been in market?
 2. `Loop Q2/6`: What are revenue, usage, and margin doing?
 3. `Loop Q3/6`: What does it cost to keep alive: support, engineering, compliance, licenses?
-4. `Loop Q4/6`: What replaces it, if anything, and what commitments constrain an exit (contracts, SLAs, regulation)?
+4. `Loop Q4/6`: What supports operating as is, extending this product, introducing a successor, or closing without one? What commitments constrain these options?
 5. `Loop Q5/6`: Who is the Decider? One name.
 6. `Loop Q6/6`: Is it physical, digital, or a service, and is there a target end-of-sale date?
 
-In **Context dump** mode, sort everything into `Known / Assumed / Missing / Conflicting` once, ask only the gaps that block step 1, and ask later gaps when their step needs them. In **Best guess** mode, run every step with assumptions labeled *(assumed)*, mark the soft gates *pending*, and stop hard only at the Decider gate. Ask `Loop Q5/6` (the Decider) in every mode.
+In **Context dump** mode, sort everything into `Known / Assumed / Missing / Conflicting` once, ask only the gaps that block step 1, and ask later gaps when their step needs them. In **Best guess** mode, run each applicable branch step with assumptions labeled *(assumed)*, mark the soft gates *pending*, and stop hard only at the Decider gate. Ask `Loop Q5/6` (the Decider) in every mode.
 
 **Carry answers forward.** When step 0 has answered the seven transition questions, step 1 reuses those answers for its telltale questions (they are the same seven) and asks only the unknowns.
 
 ## Workflow
 
 1. **Capture context** once, as above.
-2. **Run each step in order**, reading its `SKILL.md`, filling its template, and carrying the artifact forward.
+2. **Run each applicable step in order**, reading its `SKILL.md`, filling its template, and carrying the artifact forward.
 3. **Handle each gate by mode** (see the gates table). At the Decider gate, record the name, the word, the reason in their words, and the date; ask again for any that is missing. At a hard stop, present the draft, the decision needed, and who owns it, and record the answer, the person, and the date before continuing. In Best guess, mark soft gates *pending* and keep going.
 4. **Follow the branches** after step 1 and step 2.
 5. **Run the promise check** after step 3b, and fix or flag every unsupported promise before the announcement goes to its approvers.
@@ -118,12 +129,13 @@ In **Context dump** mode, sort everything into `Known / Assumed / Missing / Conf
 
 ## What It Produces
 
-Complete the [Zombie-to-Exit Pack](template.md):
+Complete the [Zombie-to-Exit Pack](template.md), including only the selected branch:
 
 - a one-page cover
 - each artifact in loop order, or a line saying why a step was skipped
 - the decision log: every gate, who decided, and when (and the Decider's reason)
-- the promise check for the announcement
+- the Operating Plan, Extension Plan, Replacement Launch and Exit Worksheet, or Retirement Closure Worksheet
+- the promise check when an announcement is drafted
 - the open items
 
 ## Human Decision Gate
@@ -138,9 +150,9 @@ Every gate in the loop table above. The agent never confirms a stage, a verdict,
 
 **Stopping at everything.** *Symptom:* Best guess halts after the lifecycle map to ask the PM to confirm the stage. *Fix:* in Best guess, soft gates are marked pending and confirmed together at the end.
 
-**Planning an exit for a revive.** *Symptom:* the worksheet is filled after the Decider said revive. *Fix:* follow the branch; record the extension play instead.
+**Planning an exit for Retain or Revive.** *Symptom:* an EOL worksheet appears after either choice. *Fix:* complete the Operating or Extension Plan instead.
 
-**The loop ends at the announcement.** *Symptom:* no Capacity Transfer. *Fix:* step 4 is part of the loop; the exit is not done until the capacity moves.
+**Invented capacity release.** *Symptom:* every branch ends with a transfer or gross costs are called savings. *Fix:* assess the ledger, retained work and approvals; show Unknown or Not applicable when no transfer is evidenced.
 
 **Thin steps.** *Symptom:* each artifact is a summary, not the template. *Fix:* fill each step's own template; skip optional steps rather than thinning required ones.
 

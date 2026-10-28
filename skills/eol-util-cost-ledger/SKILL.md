@@ -1,6 +1,6 @@
 ---
 name: eol-util-cost-ledger
-description: Count what keeping an aging product alive really costs (what it earns, what it eats below the P&L line, and what it forgoes) so the revive, replace, or retire call is argued from the full ledger, not just revenue. Use after Zombie ID, or whenever someone says "but it still makes money."
+description: Count what keeping an aging product alive really costs (what it earns, what it eats below the P&L line, and what it forgoes) so the retain, revive, replace, or retire call is argued from the full ledger, not just revenue. Use after Zombie ID, or whenever someone says "but it still makes money."
 license: CC-BY-NC-SA-4.0
 argument-hint: "[the product, the Zombie ID Card if you have it, and whatever cost and revenue figures you can find]"
 intent: >-
@@ -39,7 +39,7 @@ Revenue sits on the P&L, so everyone sees it. The costs are spread across suppor
 Use this skill when you need to:
 
 - answer "it still makes money" with the costs it does not show
-- give the revive, replace, or retire decision (`eol-step2-revive-or-replace`) a full ledger
+- give the retain, revive, replace, or retire decision (`eol-step2-revive-or-replace`) a full ledger
 - name what the product's capacity would fund instead (`eol-step4-free-the-living`)
 
 This is not a financial model or an accounting allocation. It is an honest, sourced estimate, good enough to change a decision. Ranges are fine; invented precision is not.

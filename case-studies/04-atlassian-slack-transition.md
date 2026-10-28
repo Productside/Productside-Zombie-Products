@@ -16,4 +16,4 @@ The announcement does not establish universal migration success, a discount for 
 
 ## Practice the decision
 
-[The Neighboring Vendor](../evals/cases/07-the-neighboring-vendor.md) tests a related external-transition pattern. Its names, discount, pilot results, mission record and economics are invented; they are not terms of the Atlassian–Slack agreement.
+[The Neighboring Vendor](../evals/cases/four-motion/07-the-neighboring-vendor.md) tests a related external-transition pattern. Its names, discount, pilot results, mission record and economics are invented; they are not terms of the Atlassian–Slack agreement.

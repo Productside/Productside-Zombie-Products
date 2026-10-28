@@ -5,9 +5,9 @@ Four public records show ways to retire a product while helping customers contin
 | Case card | Documented pattern | Fictional decision exercise |
 |---|---|---|
 | [Atlassian migration programs](01-atlassian-overlap-and-credits.md) | Parallel operation, trials and unused-subscription credits | [08: The Overlap Window](../evals/cases/08-the-overlap-window.md) |
-| [Microsoft extended security updates](02-microsoft-security-bridge.md) | A temporary, limited security bridge | [09: The Last Patch](../evals/cases/09-the-last-patch.md) |
+| [Microsoft extended security updates](02-microsoft-security-bridge.md) | A temporary, limited security bridge | [09: The Last Patch](../evals/cases/four-motion/09-the-last-patch.md) |
 | [Google Stadia](03-stadia-compensation.md) | Compensation for specified purchases during closure | [10: The Final Session](../evals/cases/10-the-final-session.md) |
-| [Hipchat and Stride to Slack](04-atlassian-slack-transition.md) | An external customer destination and integration partnership | [07: The Neighboring Vendor](../evals/cases/07-the-neighboring-vendor.md) |
+| [Hipchat and Stride to Slack](04-atlassian-slack-transition.md) | An external customer destination and integration partnership | [07: The Neighboring Vendor](../evals/cases/four-motion/07-the-neighboring-vendor.md) |
 
 Read a card to learn the pattern. For evaluation, give the assistant **only the fictional exercise and skill instructions**, withholding these cards, evaluator criteria, worked examples and prior answers. The fictional exercises introduce invented economics, owners, approvals and constraints so a decision can be tested without attributing private knowledge to a real company.
 

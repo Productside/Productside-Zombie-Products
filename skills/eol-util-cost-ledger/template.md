@@ -1,6 +1,6 @@
 # Cost Ledger
 
-**Utility in the EOL loop** · Zombie ID → *Cost ledger* → Revive or replace
+**Utility in the EOL loop** · Zombie ID → *Cost ledger* → Four-motion decision
 
 | | |
 |---|---|
@@ -50,7 +50,7 @@
 | Revenue that ends | | Run-off timing |
 | One-time exit costs and obligations | Unknown unless supplied | |
 
-**Net exit cash effect / retirement ROI:** Unknown unless the timing and complete cash flows are supplied. Do not add these views together or label redeployed salaries as savings.
+**Net exit cash effect / exit ROI:** Unknown unless the timing and complete cash flows are supplied. Do not add these views together or label redeployed salaries as savings.
 
 ## The waterline sentence
 
@@ -65,4 +65,4 @@ What it earns above the line: · What it eats below:
 ## Next step
 
 - Run `eol-step2-revive-or-replace` with this ledger and the Zombie ID Card.
-- After the exit, run `eol-step4-free-the-living` to move what it frees.
+- After a Replace or Retire exit plan, assess evidenced net release with `eol-step4-free-the-living`; do not assume capacity or cash becomes available.

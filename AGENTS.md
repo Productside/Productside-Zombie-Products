@@ -8,3 +8,6 @@
 - Preserve attribution, the existing license, evidence labels, and every human decision gate. An assistant must never confirm a decision or commitment on someone's behalf.
 - Keep instructions, templates, and worked examples aligned. Check relative links and the staged file list before committing.
 - Do not claim file checks prove that an assistant's behavior or a real customer outcome has been validated.
+
+- Four distinct motions: Retain operates as is; Revive extends the current product; Replace introduces a successor and phases out the old product; Retire closes without a successor. A conflicting supplied label/scope requires human clarification, never silent relabeling.
+- Preserve original evaluation inputs, criteria and reports as historical records. Revised teaching cases and manual rehearsals are not new behavioral validation; keep step 6 pending until actual runs and grading exist.

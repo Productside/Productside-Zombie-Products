@@ -1,10 +1,10 @@
 ---
 name: eol-step4-free-the-living
-description: Turn an exit plan into a Capacity Transfer (the people, money, and roadmap room the retirement frees, the next bet that gets them, the trade shown to leadership, and the date the outcome is checked) so the freed capacity moves instead of being absorbed. Use once an exit is planned, and again after the last day of support.
+description: Turn an exit plan into a Capacity Transfer (the net people capacity, avoidable payments and roadmap room a Replace or Retire exit may release, the next bet that gets them, the trade shown to leadership, and the date the outcome is checked) so the freed capacity moves instead of being absorbed. Use once an exit is planned, and again after the last day of support.
 license: CC-BY-NC-SA-4.0
-argument-hint: "[the EOL Action Planning Worksheet and the Cost Ledger, or the product and what its exit frees]"
+argument-hint: "[the selected Replacement Launch and Exit or Retirement Closure Worksheet and Cost Ledger]"
 intent: >-
-  Help a Product Manager make sure retiring a product actually funds something better: name the
+  Help a Product Manager identify whether an old-product exit can fund something better: name the
   capacity the exit frees and when, assign it to a next bet with an outcome, show leadership the
   trade, and set a date to check the outcome showed up, so the zombie's budget does not quietly
   become the next zombie's.
@@ -12,7 +12,7 @@ type: interactive
 theme: product-end-of-life
 phase: 4
 best-for:
-  - "Making the return on a retirement visible to leadership"
+  - "Making the net effect of a Replace or Retire exit visible to leadership"
   - "Stopping freed capacity from being absorbed by meetings and side projects"
   - "Putting the next bet on the roadmap against an outcome and a date"
 scenarios:
@@ -32,9 +32,9 @@ source-basis:
 
 ## Purpose
 
-Produce a **Capacity Transfer**: where the people and money freed by a retirement go, and how anyone will know it worked.
+Produce a **Capacity Transfer**: where evidenced net capacity from a Replace or Retire exit could go, and how anyone will know it worked.
 
-A retirement that does not move capacity is just a smaller zombie. If the freed time is not assigned, it gets absorbed by the next meeting, and the zombie's budget rolls into somebody else's zombie. The return on killing a product is what you fund with it.
+A Replace exit may need extra rollout and overlap capacity before any release; Retire may retain support and records work. Neither motion guarantees savings or reassignment. When net capacity really becomes available, give it an accepted next bet rather than letting it drift into another maintenance line.
 
 Use this skill when you need to:
 
@@ -43,7 +43,7 @@ Use this skill when you need to:
 - show leadership the trade in one page
 - set the date to check that the outcome showed up
 
-This is not the exit plan (`eol-step3-comms-plan`) or the cost count (`eol-util-cost-ledger`). It uses both.
+Use the selected exit worksheet and Cost Ledger. Retain has an Operating Plan and no automatic release. Revive has an Extension Plan; use this skill only if separately evidenced capacity elsewhere is being reassigned. Do not create an exit to fill this artifact.
 
 ## Key Concepts
 
@@ -119,7 +119,7 @@ The leader who owns the budget approves the trade, and the next bet's owner acce
 
 **A feature, not a bet.** *Symptom:* the next bet is a backlog. *Fix:* state the outcome and how it will be measured.
 
-**The trade nobody saw.** *Symptom:* leadership hears about the retirement but not what it bought. *Fix:* one line, in the leadership update, at notice and again after EOSL.
+**The trade nobody saw.** *Symptom:* leadership hears about an exit but not its net effect. *Fix:* one line, in the leadership update, at notice and again after EOSL.
 
 ## References
 

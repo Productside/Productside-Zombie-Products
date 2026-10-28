@@ -18,6 +18,10 @@ Use **Unknown / Proposed / Pending / Verified (source, person, date) / Not appli
 | **4. Blocked customers and exceptions** | Unassessed accounts, failed tests, missing capabilities, failed payment routes and binding commitments | Name an owner, supported fallback, review date and unresolved action for each cohort | No unsupported readiness claim, automatic waiver or forced closure from a generic date | Unknown |
 | **5. Capacity and next bet** | Net releasable people/time and avoidable payments by date, after overlap/remediation; next bet's outcome and needs | Compare timing, skills and funding; obtain budget approval and receiving-owner acceptance | Supplied release evidence and acceptance; retained salaries separate from cash savings; next outcome review dated | Unknown |
 
+## Selected motion
+
+**Replace** records the successor, rollout, migration and acceptance evidence. **Retire** records no successor, the capability lost, obligations, records and final support. Mark destination subscription, migration and replacement-only fields Not applicable for Retire; usable export access is not restoration of the lost job. Retain and Revive use their Operating or Extension Plans instead of an exit scorecard. Do not relabel a supplied decision without the Decider's clarification.
+
 ## Customer cost / compensation reconciliation
 
 | Item | Amount and period | Eligibility / basis | Proposed / approved / actually paid | Source and unresolved terms |

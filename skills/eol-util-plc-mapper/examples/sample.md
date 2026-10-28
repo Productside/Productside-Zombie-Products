@@ -45,3 +45,5 @@
 ## Next move
 
 **Run Zombie ID.** The team is running a mature-stage playbook on a declining product in six of seven areas.
+
+**Scope and handoff:** this is the canonical fictional fleet-reporting Classic Reports, launched in 2014. The card/ledger is evidence for a Retain, Revive, Replace or Retire decision, not the decision itself. The 1994 fintech demo is a separate variant.

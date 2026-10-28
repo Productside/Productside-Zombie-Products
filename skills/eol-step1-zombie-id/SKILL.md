@@ -6,7 +6,7 @@ argument-hint: "[the product, and whatever evidence you have: revenue trend, sup
 intent: >-
   Help a Product Manager tell a declining product from a zombie, using the business and product
   reasons to retire a product and the lifecycle telltale questions, so the team stops funding a
-  product by default and hands a clear finding to the revive, replace, or retire decision.
+  product by default and hands a clear finding to the retain, revive, replace, or retire decision.
 type: interactive
 theme: product-end-of-life
 phase: 1
@@ -43,11 +43,13 @@ Use this skill when you need to:
 - decide whether a long-running product is a zombie before the team argues about what to do with it
 - separate business and product reasons from image, nostalgia, or politics
 - show leadership what is keeping the product alive
-- hand a clear, evidenced finding to the revive, replace, or retire decision (`eol-step2-revive-or-replace`)
+- hand a clear, evidenced finding to the retain, revive, replace, or retire decision (`eol-step2-revive-or-replace`)
 
-This is not the decision itself. The Zombie ID Card says what the product *is*. Whether to revive, replace, or retire it is the next step, with its own evidence bar and its own Decider.
+This is not the decision itself. The Zombie ID Card says what the product *is*. Whether to retain, revive, replace, or retire it is the next step, with its own evidence bar and its own Decider.
 
 ## Key Concepts
+
+**Diagnosis is not disposition.** Healthy, Declining, Zombie and Just ugly describe the finding, not the chosen motion. Retain operates as is; Revive extends this product; Replace introduces a successor; Retire closes without one. Recommend investigation from this card; the named human chooses in step 2.
 
 **Decline is a stage. Zombie is a failure to decide.** A declining product with a plan is healthy lifecycle management. A declining product that keeps getting funded because no one has decided is a zombie. The difference is ownership of the decision, not the revenue curve. Preserve a supplied named owner who is actively reviewing options; no final word or unassigned transition owner does not erase that ownership. Do not infer inertia or an ownership vacuum merely because that review has not concluded.
 
@@ -134,7 +136,7 @@ Complete the [Zombie ID Card](template.md):
 - the lingering forces
 - the decision owner (or the absence of one)
 - the verdict and a one-sentence finding
-- the handoff to the revive, replace, or retire decision
+- the handoff to the retain, revive, replace, or retire decision
 
 ## Human Decision Gate
 

@@ -16,4 +16,4 @@ The policy does not prove that a particular customer can migrate, is safe from e
 
 ## Practice the decision
 
-[The Last Patch](../evals/cases/09-the-last-patch.md) tests an invented limited-support proposal, uncovered integrations, a funding gap and a capacity conflict. None of its terms, prices or approvals belongs to Microsoft.
+[The Last Patch](../evals/cases/four-motion/09-the-last-patch.md) tests an invented limited-support proposal, uncovered integrations, a funding gap and a capacity conflict. None of its terms, prices or approvals belongs to Microsoft.

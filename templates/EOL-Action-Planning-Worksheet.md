@@ -1,105 +1,83 @@
-# EOL Action Planning Worksheet
+# Four-motion Decision and Action Worksheet
 
-**Step 3 of the EOL loop** · Zombie ID → Revive or replace → Comms plan
+Digital takeaway supporting Productside teaching and advisory services. Start with one product or report boundary. Complete the human Decision Record, then only the selected branch. Names and approvals must come from the responsible people; an assistant's recommendation is not their decision.
 
-| | |
-|---|---|
-| **Product** | |
-| **Decision** | Retire / Replace with: |
-| **Plan owner** | |
-| **Product type** | Physical / Digital / Service |
+## Four distinct motions
 
----
-
-## 1. Phase timeline
-
-| Phase | Definition | Milestone | Default timing | Our date |
-|---|---|---|---|---|
-| GA · General Availability | Fully available for purchase and supported | Launch date | Ongoing until notice | |
-| NSC · Notice of Status Change | Formal announcement of the upcoming end of life | Announcement date | 6 months before EOS (range 3 to 12) | |
-| EOS · End of Sale | No longer available for purchase | Last day to order | Set by the lead time | |
-| EOE · End of Expansion | No further expansions or upgrades | Last day for add-ons or upgrades | About 3 months after EOS | |
-| EOL · End of Life | Support transition begins | Support transition begins | About 3 months after EOE | |
-| EOSL · End of Service Life | All support and services cease | Final day of support | About 3 months after EOL | |
-
-> **Quality check:** contracts, SLAs, and regulation may lengthen any interval; they never shorten one.
-
-## 2. Tell order (before the notice date)
-
-| # | Who | Hears by | What they need from us | Owner |
-|---|---|---|---|---|
-| 1 | Legal and compliance | | What we owe: contracts, SLAs, regulation | |
-| 2 | Financial planning | | What it does to forecasts and revenue | |
-| 3 | Sales | | What to say, what to stop selling, when | |
-| 4 | Partner management | | Partner EOL strategy and timeline | |
-| 5 | Customer success | | Expected questions and the migration path | |
-| 6 | Product enablement | | EOL materials and transition guides | |
-| 7 | IT and systems | | System changes and dates | |
-| 8 | Engineering | | What stops, what is maintained, until when | |
-| 9 | Partners (external) | | Their transition plan | |
-| 10 | Customers | NSC date | The calendar, the path, the support | |
-
-> **Quality check:** legal and finance come first; engineering is the last internal stop; customers never hear before sales and support can answer them.
-
-## 3. Action grid
-
-| Team (owner) | NSC | EOS | EOE | EOL | EOSL |
-|---|---|---|---|---|---|
-| Product strategy ( ) | | | | | |
-| Legal and compliance ( ) | | | | | |
-| Financial planning ( ) | | | | | |
-| Customers and stakeholders ( ) | | | | | |
-| Partner management ( ) | | | | | |
-| Production and supply chain, or licensing ( ) | | | | | |
-| Inventory management, or provisioning ( ) | | | | | |
-| Sales ( ) | | | | | |
-| Customer success ( ) | | | | | |
-| Product enablement ( ) | | | | | |
-| IT and systems ( ) | | | | | |
-
-## 4. Customer path
-
-- **Who is affected** (from data):
-- **What they move to:**
-- **What it costs them:**
-- **What support continues, and until when:**
-- **The announcement's three key messages:**
-  1.
-  2.
-  3.
-
-## 5. Key action items
-
-| Action | Phase | Owner | Done |
-|---|---|---|---|
-| Announce the replacement product | | | ☐ |
-| Compare old and new features | | | ☐ |
-| Engage distributors and channels | | | ☐ |
-| Revise sales forecasts | | | ☐ |
-| Plan old versus new inventory (or licensing) | | | ☐ |
-| Update marketing materials | | | ☐ |
-| Capture churn versus conversions | | | ☐ |
-| Modify sales and service systems | | | ☐ |
-
-## 6. Rules of the road
-
-| Do | In the plan? | Do not | Avoided? |
-|---|---|---|---|
-| Communicate early, clearly, and often | ☐ | Surprise users | ☐ |
-| Align stakeholders before announcing | ☐ | Strand users | ☐ |
-| Offer a clear migration path | ☐ | Ignore contracts and SLAs | ☐ |
-| Review legal and regulatory obligations | ☐ | "Brick" paid-for hardware | ☐ |
-| Create a partner transition plan | ☐ | Ignore public safety risks | ☐ |
-| Offer paid support where strategic | ☐ | Treat support as an afterthought | ☐ |
-| Use data to identify impacted users | ☐ | Leave users exposed to risks | ☐ |
-
-## 7. Open risks
-
-| Risk | Mitigation | Owner |
+| Motion | Meaning | Required plan |
 |---|---|---|
-| | | |
-| | | |
+| Retain | Operate the current product as is | Operating limits, owner, review and triggers |
+| Revive | Extend the current product | Extension hypothesis, investment and evidence review |
+| Replace | Introduce a successor product and phase out the old one | Successor rollout plus old-product exit, migration and acceptance |
+| Retire | Close without a successor | Capability loss, obligations, records and final support |
 
----
+Exports, refunds and temporary support do not themselves constitute a successor. A successor from another vendor is Replace. Expose a conflicting decision label/scope for clarification; do not silently change the human's word.
 
-*From Productside's end-of-life workshop materials. © 280 Group LLC dba Productside.*
+## Decision Record
+
+| Field | Value | Evidence / approval status |
+|---|---|---|
+| Product and scope | | |
+| Finding: Healthy / Declining / Zombie / Just ugly | | |
+| Current customer job/value | | |
+| Full operating and opportunity cost | | |
+| Human decision | | Pending |
+| Named Decider, reason and date | | Pending |
+
+| Rank | Motion | Recommendation / strongest reason | Weakest point / missing evidence | Conditions |
+|---|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+
+Compare all four, qualify uncertainty, then stop for the Decider. A healthy finding can stop the exit sequence; it does not invent a Retain approval.
+
+## Retain: Operating Plan
+
+| Field | Evidence / proposed value | Responsible owner | Approval / review |
+|---|---|---|---|
+| Current job/value and reason for operating as is | | | |
+| Permitted scope and maintenance boundaries | | | |
+| Operating budget and capacity ceiling; period/funding | | | Pending |
+| Accountable operating owner | | | Pending |
+| Review date and evidence to collect | | | |
+| Measurable reconsideration triggers and escalation owner | | | |
+
+Routine maintenance/security does not create an extension bet. Unknown limits remain pending, not indefinite approval. No EOL announcement or automatic capacity release.
+
+## Revive: Extension Plan
+
+| Field | Evidence / proposed value | Responsible owner | Approval / review |
+|---|---|---|---|
+| Extension of this product / segment | | | |
+| If/then hypothesis and current demand evidence | | | |
+| Investment and scope boundaries | | | Pending |
+| Outcome, baseline, target and smallest test | | | |
+| Evidence review date and decision rule | | | |
+
+Do not confuse a like-for-like technology rewrite with an evidence-backed extension. No old-product exit is implied.
+
+## Replace: Replacement Launch and Exit Worksheet
+
+Complete the [Replacement Launch and Exit Worksheet](../skills/eol-step3-comms-plan/replace-template.md). It coordinates two lifecycles and includes the ordered conversations, speaker, purpose, needed decision, next-action owner and date/status. Record successor coverage, production readiness, pricing, migration, acceptance, permissions, rollback and support. Review old-product exit conditions separately from successor rollout.
+
+## Retire: Retirement Closure Worksheet
+
+Complete the [Retirement Closure Worksheet](../skills/eol-step3-comms-plan/retire-template.md). It includes ordered conversations, capability loss, customer impact, obligations, payments where applicable, records/export access, retention and final support. It provides no successor and makes no invented migration promise.
+
+## Shared conditions
+
+| Condition | Evidence / owner | Status |
+|---|---|---|
+| Legal/Compliance and Finance first; teams ready before customers hear | | Pending |
+| Recorded decision, operating/extension investment or exit plan approval | | Pending |
+| Existing EOS and commitments preserved; new bundle promises reviewed | | Pending |
+| Customer text, dates, data permission and disposition separately approved | | Pending |
+| Net release after continuing work; receiving/budget approval before transfer | | Pending / Not applicable |
+
+Defaults are not contractual minima. Preserve historical milestones; a past EOS does not erase later promises. Retained salaries are not cash savings. Relationship and post-transition outcomes remain unobserved until evidence exists.
+
+The Excel takeaway contains this decision worksheet, a fictional Replace example, and separate Replace and Retire tabs. For detailed customer evidence, append the [Customer Transition Scorecard](Customer-Transition-Scorecard.md).
+
+© 280 Group LLC dba Productside. CC BY-NC-SA 4.0.
