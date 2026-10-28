@@ -40,6 +40,8 @@
 
 We stop spending ___ on ___, and start spending it on ___, to get ___.
 
+Use net releasable capacity and avoidable payments, after continuing transition work. Keep unknown amount/date/receiving acceptance explicit. Do not substitute the entire operating-cost total or call retained salaries cash saved.
+
 ## 5. Now, next, later
 
 | | What | Date |

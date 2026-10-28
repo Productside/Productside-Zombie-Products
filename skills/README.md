@@ -49,3 +49,9 @@ Timing intervals are planning defaults. Confirm actual obligations with the resp
 Adapted from Productside's product lifecycle and end-of-life teaching materials for this webinar takeaway. Copyright © 2026 280 Group LLC dba Productside. [CC BY-NC-SA 4.0](../LICENSE).
 
 Outputs remain drafts until the named humans confirm the evidence and decisions. Use public or fictional context until you are working in an organization-approved environment. Keep completed plans and customer information outside this public Project.
+
+## Customer-transition evidence
+
+For a retire/replace plan, the comms skill uses the [Customer Transition Scorecard](../templates/Customer-Transition-Scorecard.md). It keeps five areas visible: customer job and destination; cost/compensation; data, integrations and support; blocked customers; and net capacity for the next bet. Every area carries actions, owners, acceptance conditions and evidence status. Post-transition results remain unobserved until measured.
+
+The [real-world case cards](../case-studies/README.md) explain public transition patterns. Use their paired fictional cases to practice, keeping the factual cards and evaluator answers out of a closed-fixture run.

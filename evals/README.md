@@ -1,6 +1,6 @@
 # Is it a zombie, or does it deserve to live?
 
-Seven fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmetic, branches, and human decision gates. They test zombies, useful incumbents, extension opportunities, incomplete replacements, and decisions made with unreliable records.
+Ten fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmetic, branches, and human decision gates. They test zombies, useful incumbents, extension opportunities, incomplete replacements, and decisions made with unreliable records.
 
 | Scenario | Situation or historical inspiration | What it tests |
 |---|---|---|
@@ -11,6 +11,9 @@ Seven fictional scenarios exercise the Zombie-to-Exit Loop's judgment, arithmeti
 | [The Next Big Bet](cases/05-the-next-big-bet.md) | Fictional allocation conflict | A profitable incumbent versus an unproven proposal; people capacity versus cash |
 | [The Missing Ledger](cases/06-the-missing-ledger.md) | Fictional conflicting records | Incompatible revenue measures, overlapping roles, stale expenses, and pressure to bypass approval |
 | [The Neighboring Vendor](cases/07-the-neighboring-vendor.md) | Fictional external-vendor transition | Mission mismatch, bundled economics, integration readiness, and a negotiated customer discount |
+| [The Overlap Window](cases/08-the-overlap-window.md) | Fictional overlap/credit decision | Account pricing, incremental parallel-operation cost, production readiness and release timing |
+| [The Last Patch](cases/09-the-last-patch.md) | Fictional limited-security bridge | Scope exclusions, funding gap, existing troubleshooting commitments and competing capacity |
+| [The Final Session](cases/10-the-final-session.md) | Fictional compensation and closure | Approved versus paid refunds, failed routes, usable exports and a missing interactive destination |
 
 ## Try one
 
@@ -58,3 +61,9 @@ Cases 03–06 are wholly fictional stress scenarios. They are not factual accoun
 Case 07 adapts a practitioner-described pattern into wholly fictional evidence: retire a line outside the mission, and coordinate a transition and discount with another vendor. Its invented terms and integration results do not describe an actual agreement.
 
 The [vendor-transition evaluation](reports/2026-10-27-vendor-transition.md) records the two-phase commercial bridge test, observed gaps and targeted instruction changes.
+
+## Real-world patterns and customer-transition checks
+
+The [case-card library](../case-studies/README.md) supplies sourced public context for cases 07–10. Withhold it during a closed-fixture evaluation. It does not establish the fictional figures, approvals or outcomes. Cases 08–10 have [thirty criteria written before their first runs](criteria/customer-transition-expected-results.md), and each already supplies a simulated decision so the transition branch can be exercised directly. Keep all other approvals pending.
+
+Use the [Customer Transition Scorecard](../templates/Customer-Transition-Scorecard.md) with the skill references for those runs. It is part of the assistant's permitted instructions, not an answer key. The [customer-transition report](reports/2026-10-27-customer-transitions.md) preserves baseline grades, focused changes, targeted repeats and the external-vendor regression. Independent human review remains pending.

@@ -103,3 +103,7 @@
 ---
 
 *From Productside's end-of-life workshop materials. © 280 Group LLC dba Productside.*
+
+## Customer transition evidence
+
+Append the [Customer Transition Scorecard](../../templates/Customer-Transition-Scorecard.md): job/destination, cost, data/integrations/support, blocked customers, and capacity/next bet. Each area needs an action, owner, acceptance condition and evidence status. Unknown owners and outcomes stay explicit.

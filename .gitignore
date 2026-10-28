@@ -90,3 +90,16 @@
 !/evals/cases/07-the-neighboring-vendor.md
 !/evals/criteria/vendor-expected-results.md
 !/evals/reports/2026-10-27-vendor-transition.md
+!/case-studies/
+/case-studies/*
+!/case-studies/README.md
+!/case-studies/01-atlassian-overlap-and-credits.md
+!/case-studies/02-microsoft-security-bridge.md
+!/case-studies/03-stadia-compensation.md
+!/case-studies/04-atlassian-slack-transition.md
+!/evals/cases/08-the-overlap-window.md
+!/evals/cases/09-the-last-patch.md
+!/evals/cases/10-the-final-session.md
+!/evals/criteria/customer-transition-expected-results.md
+!/templates/Customer-Transition-Scorecard.md
+!/evals/reports/2026-10-27-customer-transitions.md

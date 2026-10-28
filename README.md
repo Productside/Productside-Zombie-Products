@@ -78,9 +78,15 @@ Legal and finance hear early. Teams carrying customer commitments align before t
 
 Best guess does not authorize the assistant to choose the decision or invent financial figures.
 
-## Try seven fictional scenarios
+## Learn from real exits
 
-[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on historical situations: DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Four more cases test an extension opportunity, an incomplete successor, a profitable incumbent versus an unproven bet, and conflicting financial records. A seventh tests a transition to another vendor with a negotiated customer discount. Can the loop distinguish a zombie from a product that deserves to live?
+Explore four [sourced case cards](case-studies/README.md): Atlassian's overlap and credits, Microsoft's limited security bridge, Stadia's compensation announcement, and the Hipchat/Stride handoff to Slack. Each separates documented facts, teaching interpretations and unknown outcomes. The paired fictional exercises test decisions without inventing private facts about the real companies.
+
+Use the [Customer Transition Scorecard](templates/Customer-Transition-Scorecard.md) to track the customer job, costs, data/support, blocked accounts and capacity trade—with owners, acceptance conditions and evidence of actual outcomes.
+
+## Try ten fictional scenarios
+
+[The Last Envelope](evals/cases/01-the-last-envelope.md) and [The Second Exposure](evals/cases/02-the-second-exposure.md) draw on DVD-by-mail holdouts and instant film's comeback. Their products and evidence are invented. Eight more cases test extension opportunities, incomplete successors, competing investments, conflicting records, external vendors, overlap/credits, limited support and compensation. Can the loop distinguish a zombie from a product that deserves to live—and protect customers through the resulting decision?
 
 The [scenario guide](evals/README.md) includes run prompts and separate evaluator criteria. [Verification](evals/VERIFICATION.md) records the behavioral runs, findings, corrections, and remaining limits.
 

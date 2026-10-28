@@ -18,7 +18,7 @@ Interim / Final · Finding: · Evidence IDs or source names: · Economics if kno
 | **Decider** | |
 | **Decider's reason, in their words** | |
 | **Key dates** | NSC: · EOS: · EOL: · EOSL: |
-| **The trade** | We stop spending ___ on ___, and start spending it on ___, to get ___. |
+| **The trade** | Net capacity / avoidable payments: · Release conditions and date: · Next bet / outcome: · Approval and receiving acceptance: |
 
 ## Decision log
 

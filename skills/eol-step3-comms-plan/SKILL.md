@@ -103,6 +103,10 @@ For a digital or subscription product, production, supply chain, and inventory u
 
 **Coordinate an external transition through a named owner.** For another vendor's product, verify account eligibility, job and integration coverage, data-transfer permission, customer acceptance, and support ownership/escalation between providers. Carry signed commercial terms into the customer path: calculate the discounted price and show its duration, renewal price, exclusions and any bundle repricing. Keep unresolved accounts on a supported path; do not force their support end from generic dates while the alternative or required acceptance remains unverified. A vendor offer alone does not approve migration or an announcement.
 
+**Temporary transition programs need their own comparison.** For overlap, a limited-support bridge or compensation, retain duration, eligibility, covered work, exclusions and approvals. Show the incremental revenue minus delivery cost when both are supplied; separate loaded effort from cash and distinguish expected orders from paid amounts. Keep each review date attached to its own program. A security-only extension does not waive existing normal-support commitments or prove a missing integration works.
+
+For a retire/replace transition, append the [Customer Transition Scorecard](../../templates/Customer-Transition-Scorecard.md) to the customer path. Its five areas need evidence, next action, responsible owner, acceptance/release conditions and status. Record relationship and post-transition outcomes as unobserved until evidence exists; a download, signed offer or paid refund does not establish a successful customer transition.
+
 **A plan is not completed alignment.** In the action grid and rules-of-the-road check, use Planned / Pending / Confirmed with evidence. A proposed tell order does not mean the teams have been told or approved it. A drafted billing pull does not mean affected users have been identified. Keep draft dates and promises visibly gated until their owners confirm them.
 
 ## Guided Context Capture

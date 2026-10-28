@@ -49,7 +49,7 @@ This is not the decision itself. The Zombie ID Card says what the product *is*. 
 
 ## Key Concepts
 
-**Decline is a stage. Zombie is a failure to decide.** A declining product with a plan is healthy lifecycle management. A declining product that keeps getting funded because no one has decided is a zombie. The difference is ownership of the decision, not the revenue curve.
+**Decline is a stage. Zombie is a failure to decide.** A declining product with a plan is healthy lifecycle management. A declining product that keeps getting funded because no one has decided is a zombie. The difference is ownership of the decision, not the revenue curve. Preserve a supplied named owner who is actively reviewing options; no final word or unassigned transition owner does not erase that ownership. Do not infer inertia or an ownership vacuum merely because that review has not concluded.
 
 *Violation signal:* The card calls a product a zombie only because sales are falling, without asking who owns the decision.
 

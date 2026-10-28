@@ -21,6 +21,10 @@ Updated October 27, 2026. See the [original behavioral findings](reports/2026-10
 | Native Claude discovery | Observed in fresh external folder with project settings enabled | All seven skills advertised; loop and companion/template access, healthy early branch observed; not user-wide installation or every branch |
 | Separate Codex model comparison | Case 06 executed with gpt-5.6-sol | Seven criteria observed on this one case; inline instructions, not native skill discovery or reliability evidence |
 | External-vendor transition, case 07 | Two phases run before and after narrow decision/comms changes with claude-sonnet-5-5 | Baseline 10/12 numbered criteria; repeat 12/12. Supplemental source-fidelity and draft-trade issues remain; see [vendor report](reports/2026-10-27-vendor-transition.md) |
+| Four sourced transition case cards | Primary records checked October 27, 2026 | Documented patterns separated from invented exercise evidence and unverified customer outcomes; see [case cards](../case-studies/README.md) |
+| Customer-transition cases 08–10 | Baselines, first repeats and final round actually run with claude-sonnet-5-5 | Baseline 22/30; final 29/30 numbered criteria, **not a clean suite pass**. Case 08 omits permissions; case 10 invents an archive detail. Cases 09/10 period links clarified before final round; criteria unchanged. See [transition report](reports/2026-10-27-customer-transitions.md) |
+| Case 07 regression after transition changes | Initial and scripted continuation run twice | First repeat 11/12; final 12/12 numbered criteria. Supplemental net-capacity wording remains unsupported; no actual transfer authorized |
+| Customer Transition Scorecard | Added and included in repeat inputs | Five areas distinguish evidence, actions, owners, conditions and status. Generated packs still need source and permissions review |
 | Independent human review | Private packet prepared; not graded | No completed human review or independent pass claimed |
 | Unseen holdouts and real use | Not performed | Authored cases and development repeats do not establish reliability or customer outcomes |
 

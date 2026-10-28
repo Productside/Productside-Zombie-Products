@@ -66,7 +66,7 @@ This is not the exit plan (`eol-step3-comms-plan`) or the cost count (`eol-util-
 
 *Violation signal:* The next bet is a feature list with no outcome or measure.
 
-**Show the trade.** Leadership sees one line: we stop spending this on that, and start spending it on this, to get that. The trade is what keeps the budget from drifting back.
+**Show the trade.** Leadership sees one line: we stop spending this on that, and start spending it on this, to get that. The trade is what keeps the budget from drifting back. Use only capacity that can actually be released after overlap, support, refunds, data remediation and other continuing work. A gross operating-cost total is not a transferable budget. If amounts, dates or receiving acceptance are unknown, the cover and trade sentence must retain those unknowns rather than promise the whole cost base.
 
 **Now, next, later.** Now: name the capacity. Next: put the bet on the roadmap against its outcome. Later: check the outcome, on a date, not "eventually."
 
