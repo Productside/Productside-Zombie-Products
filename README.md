@@ -91,9 +91,9 @@ Legal and finance hear early. Teams carrying customer commitments align before t
 
 Best guess does not authorize the assistant to choose the decision or invent financial figures.
 
-## Learn from real exits
+## Learn from real product decisions
 
-Explore four [sourced case cards](case-studies/README.md): Atlassian's overlap and credits, Microsoft's limited security bridge, Stadia's compensation announcement, and the Hipchat/Stride handoff to Slack. Each separates documented facts, teaching interpretations and unknown outcomes. The paired fictional exercises test decisions without inventing private facts about the real companies.
+Explore ten [sourced case cards](case-studies/README.md): Atlassian's overlap and credits, Microsoft's limited security bridge, Stadia's compensation announcement, the Hipchat/Stride handoff to Slack, Netflix DVD's closure, Polaroid's production comeback through the Impossible Project, Spotify Car Thing's shutdown remedies and community reuse, Revolv's cloud-dependent hub closure, Internet Explorer's replacement by Edge with legacy compatibility, and the Citrix–LogMeIn divestiture and reported transition plan. Each separates documented facts, teaching interpretations and unknown outcomes. The paired fictional exercises test decisions without inventing private facts about the real companies.
 
 Use the [Customer Transition Scorecard](templates/Customer-Transition-Scorecard.md) to track the customer job, costs, data/support, blocked accounts and capacity trade—with owners, acceptance conditions and evidence of actual outcomes.
 
