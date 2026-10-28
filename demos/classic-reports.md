@@ -54,4 +54,4 @@ If you choose **Retire**, state explicitly that no successor is provided, explai
 - Step 3 separates successor rollout from old-product exit, sequences conversations and keeps other approvals pending.
 - No prompt authorizes actual messages, deletion, payments or people/budget moves.
 
-Save the actual response, model/version, date, supplied prompts, your replies and any observed gaps privately. Label it a manual rehearsal; do not present old scores or outputs as validation of this version. **Step 6 behavioral evaluation remains pending.**
+Save the actual response, model/version, date, supplied prompts, your replies and any observed gaps privately. Label it a manual rehearsal; do not present old scores or outputs as validation of this version. **Step 6 behavioral evaluation is deferred; this manual rehearsal does not replace it.**

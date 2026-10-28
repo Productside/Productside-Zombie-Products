@@ -62,8 +62,8 @@
 
 ## Handoff
 
-- **Strongest reasons to retire:** costs exceed renewals; Insights supersedes it; the engine loses vendor support next year.
-- **Strongest reasons to keep:** 12 contracted customers; fuel-tax reports not yet in Insights.
+- **Evidence against continuing as is:** costs exceed renewals; Insights supersedes it; the engine loses vendor support next year.
+- **Customer jobs and obligations to preserve:** 12 contracted customers; fuel-tax reports not yet in Insights.
 - **The decision still needs to know:** what it takes to add fuel-tax reports to Insights; contract notice periods.
 
 **Scope and handoff:** this is the canonical fictional fleet-reporting Classic Reports, launched in 2014. The card/ledger is evidence for a Retain, Revive, Replace or Retire decision, not the decision itself. The 1994 fintech demo is a separate variant.

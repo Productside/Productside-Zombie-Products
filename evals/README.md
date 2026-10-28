@@ -28,6 +28,10 @@ These are revised teaching inputs, not passing evaluations. Original inputs, scr
 | [The Last Patch](cases/09-the-last-patch.md) | Fictional limited-security bridge | Scope exclusions, funding gap, existing troubleshooting commitments and competing capacity |
 | [The Final Session](cases/10-the-final-session.md) | Fictional compensation and closure | Approved versus paid refunds, failed routes, usable exports and a missing interactive destination |
 
+## Manual demo
+
+For three short prompts rather than a full closed-fixture run, use the [Classic Reports manual demo](../demos/classic-reports.md). Its third prompt records Replace only if the human chooses it. Step 6 is deferred; save any manual observations privately and keep them separate from the historical scores below.
+
 ## Try one
 
 In a fresh conversation with the skill files available, use:

@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Retiring** | |
-| **Decision** | Retire / Replace with: |
+| **Product / releasing scope** | |
+| **Decision / selected plan** | Replace / Retire; or separately evidenced release from another plan |
 | **Next bet owner** | |
 | **Trade approved by** | |
 

@@ -78,6 +78,6 @@ Use **Present** only with supporting evidence, **Not present** with affirmative 
 
 ## Handoff to retain, revive, replace, or retire
 
-- Strongest reasons to retire:
-- Strongest reasons to keep:
+- Evidence against continuing as is:
+- Customer jobs and obligations to preserve:
 - What the decision still needs to know:

@@ -3,7 +3,18 @@
 Updated October 28, 2026.
 
 **Four-motion update:** instructions, examples and takeaways now distinguish Retain, Revive, Replace and Retire. Current teaching revisions of cases 07/09 have not been behaviorally evaluated; the results below remain historical observations of the earlier inputs and instructions. Structural/file checks do not validate the new branches.
- See the [original behavioral findings](reports/2026-10-27-loop-evaluation.md) and [expanded criterion-level grades and execution checks](reports/2026-10-27-expanded-evaluation.md).
+See the [original behavioral findings](reports/2026-10-27-loop-evaluation.md) and [expanded criterion-level grades and execution checks](reports/2026-10-27-expanded-evaluation.md).
+
+## Current four-motion status
+
+| Current item | Status | Evidence boundary |
+|---|---|---|
+| Four-motion instructions, templates and examples | Updated | Retain as is; Revive extension; Replace successor; Retire no successor |
+| Markdown/Excel takeaway | Updated; content/layout and publication checks performed | File checks are not model behavior or native installation/discovery validation |
+| [Three-prompt manual demo](../demos/classic-reports.md) | Ready for a human-run rehearsal; no new result recorded | Prepared reveal and fictional decision; old responses do not validate this version |
+| New four-motion behavioral evaluations (step 6) | **Deferred at Dean’s request** | No new suite pass, reliability or customer outcome claim |
+
+## Historical observations — earlier instructions and inputs
 
 | Check | Status | What that means |
 |---|---|---|
